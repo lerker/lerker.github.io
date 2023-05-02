@@ -14,16 +14,16 @@ sidebar:
   # Sidebar links
   email: npcuadra@gmail.com
   phone: +54 9 342 428 5030
-  timezone: America/Argentina Timezone (GTM-3)
+  timezone: America/Argentina (GTM-3)
   citizenship:
-  website: blog.webjeda.com #do not add http://
-  linkedin: NelsonPonzoni
-  xing: alandoe
-  github: sharu725
+  website: lerker.github.io #do not add http://
+  linkedin: ponzoni-nelson
+  xing:
+  github: lerker
   telegram: # add your nickname without '@' sign
   gitlab:
   bitbucket:
-  twitter: "@webjeda"
+  twitter: "@NelsonPonzoni"
   stack-overflow: # Number/Username, e.g. 123456/alandoe
   codewars:
   goodreads: # Number-Username, e.g. 123456-alandoe

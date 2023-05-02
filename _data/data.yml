@@ -56,7 +56,7 @@ career-profile:
 education:
   title: Education
   info:
-    - degree: BSc in Computer Science - Engineering Informatics
+    - degree: BSc in Computer Science - Informatics Engineer
       university: Universidad Nacional del Litorial
       time: 2009 - 2017
       details: |
@@ -81,9 +81,9 @@ education:
 experiences:
   title: Experiences
   info:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Sr Manager - Digital, Data and Analytics
+      time: 2022 - Present
+      company: EY, Argentina
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -96,9 +96,16 @@ experiences:
         architecto beatae vitae dicta sunt explicabo.
           - Bullet point
           - Bullet point
-    - role: Senior Software Engineer
+    - role: Manager - Digital, Data and Analytics
+      time: 2019 - 2022
+      company: EY, Argentina
+      details: |
+        sad.
+          - Bullet point
+          - Bullet point
+    - role: Senior - Digital, Data and Analytics
       time: 2014 - 2015
-      company: Google, London
+      company: EY, Argentina
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -107,15 +114,18 @@ experiences:
         pellentesque eu, pretium quis, sem.
           - Bullet point
           - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: Proffesor
+      time: 2022 - Present
+      company: Universidad de San Andres
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        Materia tal y tal
+          - Bullet point
+          - Bullet point
+    - role: Proffesor
+      time: 2018 - 2022
+      company: Universidad Argentina de la Empresa
+      details: |
+        Materia tal y tal
           - Bullet point
           - Bullet point
 projects:

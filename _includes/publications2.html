@@ -1,25 +1,31 @@
-{% assign publications2 = site.data.data.oss %} {% if publications2 %}
-<section class="section publications2-section">
+{% assign oss = site.data.data.oss %} {% if oss %}
+<section class="section publications-section">
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
     </span>
-    {{ publications2.title }}
+    {{ publications.title }}
   </h2>
 
-  {% if publications2.intro %}
-  <div class="intro">{{ publications2.intro | markdownify }}</div>
+  {% if oss.intro %}
+  <div class="intro">
+    <p>{{ oss.intro }}</p>
+  </div>
   <!--//intro-->
-  {% endif %} {% for publication2 in publications.papers %}
+  {% endif %} {% for contribution in oss.contributions %}
   <div class="item">
-    {% if publication2.link %}
-    <li><a href="{{ publication2.link }}">{{ publication2.title }}</a></li>
-    {% else %}
-    <li>{{ publication2.title }}</li>
+    <span class="project-title">
+      {% if contribution.link %}
+      <a href="{{ contribution.link }}" target="_blank"
+        >{{ contribution.title }}</a
+      >
+      {% else %} {{ contribution.title }} {% endif %}
+    </span>
+
+    {% if contribution.tagline %} -
+    <span class="project-tagline">{{ contribution.tagline }}</span>
     {% endif %}
-    <div class="publication2-authors">{{ publication2.authors }}</div>
-    <div class="publication2-conference">{{ publication2.conference }}</div>
   </div>
   <!--//item-->
   {% endfor %}

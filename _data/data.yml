@@ -7,8 +7,8 @@ sidebar:
   education: True # set to False if you want education in main section instead of in sidebar
 
   # Profile information
-  name: Nelson Ponzoni
-  tagline: Software Engineer - Manager
+  name: Alan Doe
+  tagline: Full Stack Developer
   avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
@@ -32,29 +32,42 @@ sidebar:
   languages:
     title: Languages
     info:
-      - idiom: Spanish
+      - idiom: English
         level: Native
 
-      - idiom: English
+      - idiom: French
+        level: Professional
+
+      - idiom: Spanish
         level: Professional
 
   interests:
     title: Interests
     info:
-      - item: cycling
+      - item: Climbing
+        link:
+
+      - item: Snowboarding
+        link:
+
+      - item: Cooking
         link:
 
 career-profile:
   title: Career Profile
   summary: |
-    My carrer Lorem
-
+    Summarise your career here lorem ipsum dolor sit amet, consectetuer
+    adipiscing elit. You can [download this free resume/CV template here]().
+    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+    Donec quam felis, ultricies nec, pellentesque eu.
+    Second paragraph if required.
 education:
   title: Education
   info:
-    - degree: BSc in in Computer Science
-      university: Universidad Nacional del Litoral
-      time: 2009 - 2017
+    - degree: MSc in Computer Science
+      university: University of London
+      time: 2011 - 2012
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -63,9 +76,9 @@ education:
         pretium quis, sem.
           - Bullet point
           - Bullet point
-    - degree: BSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: BSc in Applied Mathematics
+      university: Bristol University
+      time: 2007 - 2011
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum

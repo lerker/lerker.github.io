@@ -12,18 +12,18 @@ sidebar:
   avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
-  email: npcuadra@gmail.com
-  phone: 549 342 438 5030
-  timezone: America/Argentina Timezone GMT3
+  email: hello@webjeda.com
+  phone: 012 345 6789
+  timezone: America/Cancun Timezone
   citizenship:
-  website: lerker.github.io #do not add http://
-  linkedin: ponzoni-nelson
-  xing:
-  github: lerker
+  website: blog.webjeda.com #do not add http://
+  linkedin: alandoe
+  xing: alandoe
+  github: sharu725
   telegram: # add your nickname without '@' sign
   gitlab:
   bitbucket:
-  twitter: "@NelsonPonzoni"
+  twitter: "@webjeda"
   stack-overflow: # Number/Username, e.g. 123456/alandoe
   codewars:
   goodreads: # Number-Username, e.g. 123456-alandoe
@@ -52,7 +52,7 @@ career-profile:
 education:
   title: Education
   info:
-    - degree: BSc in in Computer Science - Informatics Engineering
+    - degree: BSc in in Computer Science
       university: Universidad Nacional del Litoral
       time: 2009 - 2017
       details: |

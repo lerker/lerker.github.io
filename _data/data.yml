@@ -125,9 +125,10 @@ experiences:
       time: 2018 - 2022
       company: Universidad Argentina de la Empresa
       details: |
-        Materia tal y tal
-          - Bullet point
-          - Bullet point
+        "Subject: Artificial Intelligence at Informatics Engineer Degree. 
+        Planning and develop the course. Topics: Agents, search, Constraint 
+        satisfaction problems, Machine Learning, computer vision."
+
 projects:
   title: Projects
   intro: >

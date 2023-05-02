@@ -177,14 +177,17 @@ oss:
 publications:
   title: Publications
   intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
+
   papers:
-    - title: Desarrollo de una biblioteca de código abierto para la realización de video sinopsis.
+    - title: Development of an open source library for the generation of video synopsis.
       link: "https://ieeexplore.ieee.org/document/7497179"
-      authors: N. Ponzoni et. al
-      conference: "XVI Workshop on Information Processing and Control (RPIC), 2016. DOI: 10.1109/RPIC.2015.7497179"
+      authors: "J. Olivera, N. P. Cuadra, E. Oliva, E. Albornoz and C. Martínez"
+      conference: "2015 XVI Workshop on Information Processing and Control (RPIC), Cordoba, Argentina, 2015, pp. 1-4, doi: 10.1109/RPIC.2015.7497179"
+
+    - title: "Desarrollo de una biblioteca para sistemas basados en aprendizaje profundo mediante GP-GPU: aplicación al reconocimiento de emociones (Undergraduate project)"
+      link: "https://sinc.unl.edu.ar/sinc-publications/2017/PRM17a/sinc_PRM17a.pdf"
+      authors: "Ponzoni Cuadra, Nelson Eduardo"
+      conference: "Master thesis from Facultad de Ingeniería y Ciencias Hídricas - Universidad Nacional del Litoral - 2017"
 
 skills:
   title: Skills &amp; Proficiency

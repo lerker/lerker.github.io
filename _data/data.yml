@@ -114,20 +114,20 @@ experiences:
         pellentesque eu, pretium quis, sem.
           - Bullet point
           - Bullet point
-    - role: Proffesor
+    - role: Professor
       time: 2022 - Present
       company: Universidad de San Andres
       details: |
         Materia tal y tal
           - Bullet point
           - Bullet point
-    - role: Proffesor
+    - role: Professor
       time: 2018 - 2022
       company: Universidad Argentina de la Empresa
       details: |
-        "Subject: Artificial Intelligence at Informatics Engineer Degree. 
-        Planning and develop the course. Topics: Agents, search, Constraint 
-        satisfaction problems, Machine Learning, computer vision."
+        Subject: Artificial Intelligence at Informatics Engineer Degree. 
+        Planning and develop the course. Topics: Agents, search, Constraint Satisfaction Problems, 
+        Machine Learning, Computer Vision and Natural Language Processing.
 
 projects:
   title: Projects
@@ -157,7 +157,7 @@ projects:
       tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 oss:
-  title: Courses
+  title: Courses &amp; Conferences
   intro: >
 
   contributions:
@@ -172,6 +172,10 @@ oss:
     - title: "Desarrollo de aplicaciones Web"
       link: "https://drive.google.com/file/d/0B4EJjjapcupUVFo2VG5QZURfSU0/view?resourcekey=0-4tpu1vMdVlQHCQUBpd1nqA"
       tagline: "PHP, MySQL y MVC. October 3, 10, 17 and 31; November 7 and 14, 2015. Facultad de Ingeniería y Ciencias Hídricas, Universidad Nacional del Litoral. Santa Fe, Santa Fe."
+
+    - title: "Microsoft Data & AI – Experience 2018 LATAM."
+      link: "https://www.linkedin.com/feed/update/urn:li:activity:6382347162243596288"
+      tagline: "Track Solutions: Machine Learning by Industry. March 18, 2018. Buenos Aires."
 
 publications:
   title: Publications

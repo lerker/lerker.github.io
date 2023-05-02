@@ -47,16 +47,11 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    With extensive experience as a Data Operations Engineer and a strong passion for web development, I am transitioning into a Web Developer role to combine my expertise in data management and software engineering. My proficiency in database design, development, and administration, along with a solid background in programming languages such as HTML, CSS, JavaScript, and front-end frameworks like React, equips me to create visually appealing and highly functional web applications. As someone with a deep understanding of user behavior, I am dedicated to developing user-friendly web experiences that exceed expectations. My ability to identify and solve complex problems makes me an asset in this transition, and I am excited to apply my technical skills, creativity, and problem-solving abilities to deliver innovative and engaging web experiences that enhance the user experience and drive business growth.
 education:
   title: Education
   info:
-    - degree: BSc in Computer Science - Informatics Engineer
+    - degree: BSc in Computer Science  &amp Engineering
       university: Universidad Nacional del Litorial
       time: 2009 - 2017
       details: |

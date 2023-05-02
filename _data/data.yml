@@ -160,17 +160,17 @@ oss:
   intro: >
 
   contributions:
-    - title: Tempo
-      link: "#"
-      tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+    - title: "Modern Deep Learning in Python"
+      link: "https://www.udemy.com/certificate/UC-0AS6A14R/"
+      tagline: "Build with modern libraries like Tensorflow, Theano, Keras, PyTorch, CNTK, MXNet. Train faster with GPU on AWS. Udemy. MOOC from Lazy Programmer Inc. Update May. 2018."
 
-    - title: Atom
-      link: "#"
-      tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+    - title: "SAS Programming I"
+      link: "https://drive.google.com/file/d/0B4EJjjapcupUNXlIb0xoN3pMNjQ/view?usp=sharing&resourcekey=0-OAYjQiNJsgQS65o5-YmHRg"
+      tagline: "Essentials. April 24, 25 and May 2, 2017. SAS Institute Argentina S.A.S. Ciudad Autónoma de Buenos Aires, Buenos Aires."
 
-    - title: Delta
-      link: "#"
-      tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+    - title: "Desarrollo de aplicaciones Web"
+      link: "https://drive.google.com/file/d/0B4EJjjapcupUVFo2VG5QZURfSU0/view?resourcekey=0-4tpu1vMdVlQHCQUBpd1nqA"
+      tagline: "PHP, MySQL y MVC. October 3, 10, 17 and 31; November 7 and 14, 2015. Facultad de Ingeniería y Ciencias Hídricas, Universidad Nacional del Litoral. Santa Fe, Santa Fe."
 
 publications:
   title: Publications

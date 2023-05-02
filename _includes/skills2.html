@@ -10,7 +10,15 @@
 
   <div class="skillset">
     {% for skill in skills.toolset %}
-    <span type="" class="skill-tag text-center"> {{ skill.name }} </span>
+    <p
+      astyle="background-color:#02f3e5;
+    border-radius:4px;
+    font-size:16px;
+    padding:15px;
+    margin:5px;"
+    >
+      <b> {{ skill.name }} </b>
+    </p>
     {% endfor %}
   </div>
 </section>

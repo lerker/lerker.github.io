@@ -155,41 +155,41 @@ oss:
   title: Courses &amp; Conferences
   intro: >
 
-  contributions:
-    # Curso: 2018
-    - title: "Modern Deep Learning in Python"
-      link: "https://www.udemy.com/certificate/UC-0AS6A14R/"
-      tagline: "Build with modern libraries like Tensorflow, Theano, Keras, PyTorch, CNTK, MXNet. Train faster with GPU on AWS. Udemy. MOOC from Lazy Programmer Inc. Update May. 2018."
+contributions:
+  # Curso: 2018
+  - title: "Modern Deep Learning in Python"
+    link: "https://www.udemy.com/certificate/UC-0AS6A14R/"
+    tagline: "Build with modern libraries like Tensorflow, Theano, Keras, PyTorch, CNTK, MXNet. Train faster with GPU on AWS. Udemy. MOOC from Lazy Programmer Inc. Update May. 2018."
 
-    # Curso: 2017
-    - title: "SAS Programming I"
-      link: "https://drive.google.com/file/d/0B4EJjjapcupUNXlIb0xoN3pMNjQ/view?usp=sharing&resourcekey=0-OAYjQiNJsgQS65o5-YmHRg"
-      tagline: "Essentials. April 24, 25 and May 2, 2017. SAS Institute Argentina S.A.S. Ciudad Autónoma de Buenos Aires, Buenos Aires."
+  # Curso: 2017
+  - title: "SAS Programming I"
+    link: "https://drive.google.com/file/d/0B4EJjjapcupUNXlIb0xoN3pMNjQ/view?usp=sharing&resourcekey=0-OAYjQiNJsgQS65o5-YmHRg"
+    tagline: "Essentials. April 24, 25 and May 2, 2017. SAS Institute Argentina S.A.S. Ciudad Autónoma de Buenos Aires, Buenos Aires."
 
-    # Curso: 2015
-    - title: "Desarrollo de aplicaciones Web"
-      link: "https://drive.google.com/file/d/0B4EJjjapcupUVFo2VG5QZURfSU0/view?resourcekey=0-4tpu1vMdVlQHCQUBpd1nqA"
-      tagline: "PHP, MySQL y MVC. October 3, 10, 17 and 31; November 7 and 14, 2015. Facultad de Ingeniería y Ciencias Hídricas, Universidad Nacional del Litoral. Santa Fe, Santa Fe."
+  # Curso: 2015
+  - title: "Desarrollo de aplicaciones Web"
+    link: "https://drive.google.com/file/d/0B4EJjjapcupUVFo2VG5QZURfSU0/view?resourcekey=0-4tpu1vMdVlQHCQUBpd1nqA"
+    tagline: "PHP, MySQL y MVC. October 3, 10, 17 and 31; November 7 and 14, 2015. Facultad de Ingeniería y Ciencias Hídricas, Universidad Nacional del Litoral. Santa Fe, Santa Fe."
 
-    # Charla: 2018
-    - title: "Microsoft Data & AI – Experience 2018 LATAM."
-      link: "https://www.linkedin.com/feed/update/urn:li:activity:6382347162243596288"
-      tagline: "Track Solutions: Machine Learning by Industry. March 18, 2018. Buenos Aires."
+  # Charla: 2018
+  - title: "Microsoft Data & AI – Experience 2018 LATAM."
+    link: "https://www.linkedin.com/feed/update/urn:li:activity:6382347162243596288"
+    tagline: "Track Solutions: Machine Learning by Industry. March 18, 2018. Buenos Aires."
 
-    # Encuentro: 2015
-    - title: "Encuentro de Jóvenes Investigadores (EJI)"
-      link: "https://drive.google.com/file/d/0B4EJjjapcupURVEyS2xQUDNmZ0k/view?resourcekey=0-NcoQ8gqVRcqeM6fJVbfXBg"
-      tagline: "OpenSourceVS: biblioteca de código abierto para video sinopsis. From October 15 to October 17, 2015. Universidad Nacional del Litoral. Santa Fe, Santa Fe. Mention: First place."
+  # Encuentro: 2015
+  - title: "Encuentro de Jóvenes Investigadores (EJI)"
+    link: "https://drive.google.com/file/d/0B4EJjjapcupURVEyS2xQUDNmZ0k/view?resourcekey=0-NcoQ8gqVRcqeM6fJVbfXBg"
+    tagline: "OpenSourceVS: biblioteca de código abierto para video sinopsis. From October 15 to October 17, 2015. Universidad Nacional del Litoral. Santa Fe, Santa Fe. Mention: First place."
 
-    # Encuentro: 2015
-    - title: "XVI Workshop on Information Processing and Control (RPIC)"
-      link: "rpic.com.ar"
-      tagline: "Desarrollo de una biblioteca de código abierto para la realización de video sinopsis. From October 6 to October 9, 2015. Facultad regional de Córdoba, Universidad Tecnológica Nacional. Córdoba, Córdoba. Mention: Third place"
+  # Encuentro: 2015
+  - title: "XVI Workshop on Information Processing and Control (RPIC)"
+    link: "rpic.com.ar"
+    tagline: "Desarrollo de una biblioteca de código abierto para la realización de video sinopsis. From October 6 to October 9, 2015. Facultad regional de Córdoba, Universidad Tecnológica Nacional. Córdoba, Córdoba. Mention: Third place"
 
-    # Encuentro: 2015
-    - title: "Jornadas Argentinas de Informática Operativa N◦44 (JAIIO)"
-      link: "https://drive.google.com/file/d/0B4EJjjapcupUN2RXbVBWZ1dtamM/view?resourcekey=0-FeyDSZiGEvckORD4Qz0isg"
-      tagline: "Simposio Argentino de GRANdes DAtos (GRANDA), Simposio Argentino de Ingeniería de Software, Simposio Argentino de Ontologías y sus Aplicaciones, Simposio Argentino de Informática Industrial, Simposio de Informática en el Estado. Organizador: Sociedad Argentina de Informática (SADIO). From August 31 to September 4, 2015. Facultad de Ingeniería, Universidad Nacional de Rosario. Rosario, Santa Fe."
+  # Encuentro: 2015
+  - title: "Jornadas Argentinas de Informática Operativa N◦44 (JAIIO)"
+    link: "https://drive.google.com/file/d/0B4EJjjapcupUN2RXbVBWZ1dtamM/view?resourcekey=0-FeyDSZiGEvckORD4Qz0isg"
+    tagline: "Simposio Argentino de GRANdes DAtos (GRANDA), Simposio Argentino de Ingeniería de Software, Simposio Argentino de Ontologías y sus Aplicaciones, Simposio Argentino de Informática Industrial, Simposio de Informática en el Estado. Organizador: Sociedad Argentina de Informática (SADIO). From August 31 to September 4, 2015. Facultad de Ingeniería, Universidad Nacional de Rosario. Rosario, Santa Fe."
 
 publications:
   title: Publications
@@ -199,9 +199,9 @@ publications:
     - title: Development of an open source library for the generation of video synopsis.
       link: "https://ieeexplore.ieee.org/document/7497179"
       authors: "J. Olivera, N. P. Cuadra, E. Oliva, E. Albornoz and C. Martínez"
-      conference: "2015 XVI Workshop on Information Processing and Control (RPIC), Cordoba, Argentina, 2015, pp. 1-4, doi: 10.1109/RPIC.2015.7497179"
+      conference: "2015 XVI Workshop on Information Processing and Control (RPIC), Cordoba, Argentina, 2015, pp. 1-4, DOI: 10.1109/RPIC.2015.7497179"
 
-    - title: "Desarrollo de una biblioteca para sistemas basados en aprendizaje profundo mediante GP-GPU: aplicación al reconocimiento de emociones (Undergraduate project)"
+    - title: "Desarrollo de una biblioteca para sistemas basados en aprendizaje profundo mediante GP-GPU: aplicación al reconocimiento de emociones (undergraduate project)"
       link: "https://sinc.unl.edu.ar/sinc-publications/2017/PRM17a/sinc_PRM17a.pdf"
       authors: "Ponzoni Cuadra, Nelson Eduardo"
       conference: "Master thesis from Facultad de Ingeniería y Ciencias Hídricas - Universidad Nacional del Litoral - 2017"

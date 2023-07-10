@@ -1,269 +1,264 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
 sidebar:
-  #about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  #education: False # set to False if you want education in main section instead of in sidebar
+    position: right # position of the sidebar : left or right
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
 
-  # Profile information
-  name: Nelson Ponzoni
-  tagline: Manager - Software Engineer & Professor
-  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    # Profile information
+    name: Alan Doe
+    tagline: Full Stack Developer
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-  # Sidebar links
-  email: npcuadra@gmail.com
-  phone: +54 9 mailme
-  timezone: America/Argentina (GTM-3)
-  citizenship:
-  website: lerker.github.io #do not add http://
-  linkedin: ponzoni-nelson
-  xing:
-  github: lerker
-  telegram: # add your nickname without '@' sign
-  gitlab:
-  bitbucket:
-  twitter: "@NelsonPonzoni"
-  stack-overflow: # Number/Username, e.g. 123456/alandoe
-  codewars:
-  goodreads: # Number-Username, e.g. 123456-alandoe
-  pdf: http://www.africau.edu/images/default/sample.pdf
+    # Sidebar links
+    email: hello@webjeda.com
+    phone: 012 345 6789
+    timezone: America/Cancun Timezone
+    citizenship:
+    website: blog.webjeda.com #do not add http://
+    linkedin: alandoe
+    xing: alandoe
+    github: sharu725
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: '@webjeda'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf: http://www.africau.edu/images/default/sample.pdf
 
-  languages:
-    title: Languages
-    info:
-      - idiom: Spanish
-        level: Native
+    languages:
+      title: Languages
+      info:
+        - idiom: English
+          level: Native
 
-      - idiom: English
-        level: Professional
+        - idiom: French
+          level: Professional
 
-  interests:
-    title: Interests
-    info:
-      - item: Cycling
-        link:
+        - idiom: Spanish
+          level: Professional
+
+    interests:
+      title: Interests
+      info:
+        - item: Climbing
+          link:
+
+        - item: Snowboarding
+          link:
+
+        - item: Cooking
+          link:
 
 career-profile:
-  title: Career Profile
-  summary: |
-    With extensive experience as a Data Operations Engineer and a strong passion for web development, I am transitioning into a Web Developer role to combine my expertise in data management and software engineering. My proficiency in database design, development, and administration, along with a solid background in programming languages such as HTML, CSS, JavaScript, and front-end frameworks like React, equips me to create visually appealing and highly functional web applications. As someone with a deep understanding of user behavior, I am dedicated to developing user-friendly web experiences that exceed expectations. My ability to identify and solve complex problems makes me an asset in this transition, and I am excited to apply my technical skills, creativity, and problem-solving abilities to deliver innovative and engaging web experiences that enhance the user experience and drive business growth.
+    title: Career Profile
+    summary: |
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+      Second paragraph if required.
 education:
-  title: Education
-  info:
-    - degree: BSc in Computer Science  &amp Engineering
-      university: Universidad Nacional del Litorial
-      time: 2009 - 2017
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+    title: Education
+    info:
+      - degree: MSc in Computer Science
+        university: University of London
+        time: 2011 - 2012
+        details: |
+          Describe your study here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+          sociis natoque penatibus et magnis dis parturient montes, nascetur
+          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+          pretium quis, sem.
+            - Bullet point
+            - Bullet point
+      - degree: BSc in Applied Mathematics
+        university: Bristol University
+        time: 2007 - 2011
+        details: |
+          Describe your study here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+          sociis natoque penatibus et magnis dis parturient montes, nascetur
+          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+          pretium quis, sem.
+            - Bullet point
+            - Bullet point
 experiences:
-  title: Experiences
-  info:
-    - role: Sr Manager - Digital, Data and Analytics
-      time: 2022 - Present
-      company: EY, Argentina
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Manager - Digital, Data and Analytics
-      time: 2019 - 2022
-      company: EY, Argentina
-      details: |
-        sad.
-          - Bullet point
-          - Bullet point
-    - role: Senior - Digital, Data and Analytics
-      time: 2014 - 2015
-      company: EY, Argentina
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: Professor
-      time: 2022 - Present
-      company: Universidad de San Andres
-      details: |
-        Materia tal y tal
-          - Bullet point
-          - Bullet point
-    - role: Professor
-      time: 2018 - 2022
-      company: Universidad Argentina de la Empresa
-      details: |
-        Subject: Artificial Intelligence at Informatics Engineer Degree. 
-        Planning and develop the course. Topics: Agents, search, Constraint Satisfaction Problems, 
-        Machine Learning, Computer Vision and Natural Language Processing.
+    title: Experiences
+    info:
+      - role: Lead Developer
+        time: 2015 - Present
+        company: Startup Hubs, San Francisco
+        details: |
+          Describe your role here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+          Cum sociis natoque penatibus et magnis dis parturient montes,
+          nascetur ridiculus mus. Donec quam felis, ultricies nec,
+          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+          error sit voluptatem accusantium doloremque laudantium, totam rem
+          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+          architecto beatae vitae dicta sunt explicabo.
+            - Bullet point
+            - Bullet point
+      - role: Senior Software Engineer
+        time: 2014 - 2015
+        company: Google, London
+        details: |
+          Describe your role here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+          Cum sociis natoque penatibus et magnis dis parturient montes,
+          nascetur ridiculus mus. Donec quam felis, ultricies nec,
+          pellentesque eu, pretium quis, sem.
+            - Bullet point
+            - Bullet point
+      - role: UI Developer
+        time: 2012 - 2014
+        company: Amazon, London
+        details: |
+          Describe your role here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+          Cum sociis natoque penatibus et magnis dis parturient montes,
+          nascetur ridiculus mus. Donec quam felis, ultricies nec,
+          pellentesque eu, pretium quis, sem.
+            - Bullet point
+            - Bullet point
 
 certifications:
-  title: Certifications
-  list:
-    - name: CV Builder
-      start: 2020
-      end: 2021
-      organization: Microsoft
-      credentialid: 111-222
-      credentialurl: www.google.com
-      credentialname: Google
-      details: |
-        Details about cert. Lorem ipsum dolor sit amet, consectetur 
-        adipiscing elit.
-        Nullam eget orci purus. Nullam ultrices neque nibh. 
-        Aenean fermentum, felis vulputate suscipit accumsan, 
-        sem enim bibendum augue, sed convallis arcu lacus at dui. 
-        Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor. 
-        Praesent felis nibh, eleifend id eleifend id, dictum id enim. 
-        Praesent venenatis erat non augue suscipit consectetur. 
-
-        Second paragraph. Sed eleifend enim ante, vitae efficitur purus 
-        fringilla vel. Ut euismod, sem sed vulputate venenatis, 
-        justo diam viverra velit, sed rhoncus leo leo eu justo.
-        Suspendisse placerat risus ante, sed porta nisi blandit at.
-    - name: Git learning
-      start: 2019
-      end:
-      organization: Microsoft
-      credentialid: 111-222
-      credentialurl: www.github.com
-      credentialname: Github
-      details: |
-        Older certification. Lorem ipsum dolor sit amet, consectetur 
-        adipiscing elit.
-        Nullam eget orci purus. Nullam ultrices neque nibh. 
-        Aenean fermentum, felis vulputate suscipit accumsan, 
-        sem enim bibendum augue, sed convallis arcu lacus at dui. 
-        Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor. 
-        Praesent felis nibh, eleifend id eleifend id, dictum id enim. 
-        Praesent venenatis erat non augue suscipit consectetur.
-
+      title: Certifications
+      list:
+        - name: CV Builder
+          start: 2020
+          end: 2021
+          organization: Microsoft
+          credentialid: 111-222
+          credentialurl: www.google.com
+          credentialname: Google
+          details: |
+            Details about cert. Lorem ipsum dolor sit amet, consectetur 
+            adipiscing elit.
+            Nullam eget orci purus. Nullam ultrices neque nibh. 
+            Aenean fermentum, felis vulputate suscipit accumsan, 
+            sem enim bibendum augue, sed convallis arcu lacus at dui. 
+            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor. 
+            Praesent felis nibh, eleifend id eleifend id, dictum id enim. 
+            Praesent venenatis erat non augue suscipit consectetur. 
+            
+            Second paragraph. Sed eleifend enim ante, vitae efficitur purus 
+            fringilla vel. Ut euismod, sem sed vulputate venenatis, 
+            justo diam viverra velit, sed rhoncus leo leo eu justo.
+            Suspendisse placerat risus ante, sed porta nisi blandit at. 
+        - name: Git learning
+          start: 2019
+          end:
+          organization: Microsoft
+          credentialid: 111-222
+          credentialurl: www.github.com
+          credentialname: Github
+          details: |
+            Older certification. Lorem ipsum dolor sit amet, consectetur 
+            adipiscing elit.
+            Nullam eget orci purus. Nullam ultrices neque nibh. 
+            Aenean fermentum, felis vulputate suscipit accumsan, 
+            sem enim bibendum augue, sed convallis arcu lacus at dui. 
+            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor. 
+            Praesent felis nibh, eleifend id eleifend id, dictum id enim. 
+            Praesent venenatis erat non augue suscipit consectetur. 
+        
 projects:
-  title: Projects
-  intro: >
-    You can list your side projects in this
-    section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  assignments:
-    - title: Velocity
-      link: "#hook"
-      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+    title: Projects
+    intro: >
+      You can list your side projects in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-    - title: DevStudio
-      link: "#"
-      tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: DevStudio
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
 
-    - title: Tempo
-      link: "#"
-      tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Tempo
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-    - title: Atom
-      link: "#"
-      tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: Atom
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-    - title: Delta
-      link: "#"
-      tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Delta
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 oss:
-  title: Courses &amp; Conferences
-  intro: >
+    title: OSS Contributions
+    intro: >
+      You can list your open source software contributions in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    contributions:
+      - title: Tempo
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-contributions:
-  # Curso: 2018
-  - title: "Modern Deep Learning in Python"
-    link: "https://www.udemy.com/certificate/UC-0AS6A14R/"
-    tagline: "Build with modern libraries like Tensorflow, Theano, Keras, PyTorch, CNTK, MXNet. Train faster with GPU on AWS. Udemy. MOOC from Lazy Programmer Inc. Update May. 2018."
+      - title: Atom
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-  # Curso: 2017
-  - title: "SAS Programming I"
-    link: "https://drive.google.com/file/d/0B4EJjjapcupUNXlIb0xoN3pMNjQ/view?usp=sharing&resourcekey=0-OAYjQiNJsgQS65o5-YmHRg"
-    tagline: "Essentials. April 24, 25 and May 2, 2017. SAS Institute Argentina S.A.S. Ciudad Autónoma de Buenos Aires, Buenos Aires."
-
-  # Curso: 2015
-  - title: "Desarrollo de aplicaciones Web"
-    link: "https://drive.google.com/file/d/0B4EJjjapcupUVFo2VG5QZURfSU0/view?resourcekey=0-4tpu1vMdVlQHCQUBpd1nqA"
-    tagline: "PHP, MySQL y MVC. October 3, 10, 17 and 31; November 7 and 14, 2015. Facultad de Ingeniería y Ciencias Hídricas, Universidad Nacional del Litoral. Santa Fe, Santa Fe."
-
-  # Charla: 2018
-  - title: "Microsoft Data & AI – Experience 2018 LATAM."
-    link: "https://www.linkedin.com/feed/update/urn:li:activity:6382347162243596288"
-    tagline: "Track Solutions: Machine Learning by Industry. March 18, 2018. Buenos Aires."
-
-  # Encuentro: 2015
-  - title: "Encuentro de Jóvenes Investigadores (EJI)"
-    link: "https://drive.google.com/file/d/0B4EJjjapcupURVEyS2xQUDNmZ0k/view?resourcekey=0-NcoQ8gqVRcqeM6fJVbfXBg"
-    tagline: "OpenSourceVS: biblioteca de código abierto para video sinopsis. From October 15 to October 17, 2015. Universidad Nacional del Litoral. Santa Fe, Santa Fe. Mention: First place."
-
-  # Encuentro: 2015
-  - title: "XVI Workshop on Information Processing and Control (RPIC)"
-    link: "rpic.com.ar"
-    tagline: "Desarrollo de una biblioteca de código abierto para la realización de video sinopsis. From October 6 to October 9, 2015. Facultad regional de Córdoba, Universidad Tecnológica Nacional. Córdoba, Córdoba. Mention: Third place"
-
-  # Encuentro: 2015
-  - title: "Jornadas Argentinas de Informática Operativa N◦44 (JAIIO)"
-    link: "https://drive.google.com/file/d/0B4EJjjapcupUN2RXbVBWZ1dtamM/view?resourcekey=0-FeyDSZiGEvckORD4Qz0isg"
-    tagline: "Simposio Argentino de GRANdes DAtos (GRANDA), Simposio Argentino de Ingeniería de Software, Simposio Argentino de Ontologías y sus Aplicaciones, Simposio Argentino de Informática Industrial, Simposio de Informática en el Estado. Organizador: Sociedad Argentina de Informática (SADIO). From August 31 to September 4, 2015. Facultad de Ingeniería, Universidad Nacional de Rosario. Rosario, Santa Fe."
+      - title: Delta
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
-  title: Publications
-  intro: |
+    title: Publications
+    intro: |
+      You can list your publications in this section. Lorem ipsum dolor sit
+      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+      bibendum fringilla a eu lectus.
+    papers:
+      - title: The Art of Computer Programming
+        link: "#"
+        authors: Donald E. Knuth
+        conference: Addison-Wesley, 1968
 
-  papers:
-    - title: Development of an open source library for the generation of video synopsis.
-      link: "https://ieeexplore.ieee.org/document/7497179"
-      authors: "J. Olivera, N. P. Cuadra, E. Oliva, E. Albornoz and C. Martínez"
-      conference: "2015 XVI Workshop on Information Processing and Control (RPIC), Cordoba, Argentina, 2015, pp. 1-4, DOI: 10.1109/RPIC.2015.7497179"
+      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+        link: "#"
+        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-    - title: "Desarrollo de una biblioteca para sistemas basados en aprendizaje profundo mediante GP-GPU: aplicación al reconocimiento de emociones (undergraduate project)"
-      link: "https://sinc.unl.edu.ar/sinc-publications/2017/PRM17a/sinc_PRM17a.pdf"
-      authors: "Ponzoni Cuadra, Nelson Eduardo"
-      conference: "Master thesis from Facultad de Ingeniería y Ciencias Hídricas - Universidad Nacional del Litoral - 2017"
+      - title: A syntax directed compiler for Algol 60
+        link: "#"
+        authors: Edgar T. Irons
+        conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
-  title: Skills &amp; Proficiency
+    title: Skills &amp; Proficiency
 
-  toolset:
-    - name: Python & Django
-      level: 98%
+    toolset:
+      - name: Python & Django
+        level: 98%
 
-    - name: Javascript & jQuery
-      level: 98%
+      - name: Javascript & jQuery
+        level: 98%
 
-    - name: Angular
-      level: 98%
+      - name: Angular
+        level: 98%
 
-    - name: HTML5 & CSS
-      level: 95%
+      - name: HTML5 & CSS
+        level: 95%
 
-    - name: Ruby on Rails
-      level: 85%
+      - name: Ruby on Rails
+        level: 85%
 
-    - name: Sketch & Photoshop
-      level: 60%
+      - name: Sketch & Photoshop
+        level: 60%
 
 footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

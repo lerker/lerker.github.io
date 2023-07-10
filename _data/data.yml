@@ -3,28 +3,28 @@
 #
 
 sidebar:
-    position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    position: left # position of the sidebar : left or right
+    #about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Nelson Ponzoni
+    tagline: Data Analytics Manager
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
+    email: npcuadra@gmail.com
+    #phone: 012 345 6789
+    timezone: America/Argentina Timezone
     citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    #website: blog.webjeda.com #do not add http://
+    linkedin: ponzoni-nelson
+    xing:
+    github: lerker
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: '@NelsonPonzoni'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -33,25 +33,16 @@ sidebar:
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: Spanish
           level: Native
 
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
+        - idiom: English
+          level: B2 - Professional
 
     interests:
       title: Interests
       info:
-        - item: Climbing
-          link:
-
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
+        - item: Cycling
           link:
 
 career-profile:
@@ -66,9 +57,9 @@ career-profile:
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: BSc in Computer Science & Engineering
+        university: Universidad Nacional del Litoral
+        time: 2009 - 2017
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -91,9 +82,9 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Sr Manager - Digital, Data and Analytics
+        time: 2022 - Present
+        company: EY, Argentina
         details: |
           Describe your role here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -106,9 +97,9 @@ experiences:
           architecto beatae vitae dicta sunt explicabo.
             - Bullet point
             - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+      - role: Manager - Digital, Data and Analytics
+        time: 2019 - 2022
+        company: EY, Argentina
         details: |
           Describe your role here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -117,9 +108,9 @@ experiences:
           pellentesque eu, pretium quis, sem.
             - Bullet point
             - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+      - role: Professor
+        time: 2017 - 2022
+        company: Universidad Argentina de la Empresa
         details: |
           Describe your role here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -223,20 +214,15 @@ publications:
       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
       bibendum fringilla a eu lectus.
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: Development of an open source library for the generation of video synopsis
+        link: "https://ieeexplore.ieee.org/document/7497179"
+        authors: J. Olivera, N. P. Cuadra, E. Oliva, E. Albornoz and C. Martínez
+        conference: "2015 XVI Workshop on Information Processing and Control (RPIC), Cordoba, Argentina, 2015, pp. 1-4, DOI: 10.1109/RPIC.2015.7497179"
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: "Desarrollo de una biblioteca para sistemas basados en aprendizaje profundo mediante GP-GPU: aplicación al reconocimiento de emociones (undergraduate project)"
+        link: "https://sinc.unl.edu.ar/sinc-publications/2017/PRM17a/sinc_PRM17a.pdf"
+        authors: Nelson Eduardo, Ponzoni Cuadra
+        conference: "Master thesis from Facultad de Ingeniería y Ciencias Hídricas - Universidad Nacional del Litoral - 2017"
 
 skills:
     title: Skills &amp; Proficiency

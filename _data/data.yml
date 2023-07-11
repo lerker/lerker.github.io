@@ -90,40 +90,64 @@ experiences:
         time: 2022 - Present
         company: EY, Argentina
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
+          As a Senior Data and Analytics Manager, I lead and develop high-performing teams, driving 
+          their capability development to deliver impactful data-driven solutions. I spearhead 
+          strategic analysis of key areas, utilizing advanced analytics techniques to uncover insights
+          that promote business growth and enhance operational efficiency. Moreover, I ensure the 
+          alignment of data initiatives with financial objectives, effectively managing budgets and
+          resources. Through collaboration with cross-functional stakeholders, I establish robust data
+          frameworks and process, implement scalable data architectures, and promote the adoption of 
+          best practices. Overall, I leverage strategic thinking, technical expertise, and leadership
+          skills to maximize the value of data and empower data-driven decision-making across 
+          the organization.
       - role: Manager - Digital, Data and Analytics
         time: 2019 - 2022
         company: EY, Argentina
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: Professor
+          As a Data Analytics Manager, I was responsible for overseeing data-driven projects and 
+          leading a team of software engineers. I drove the strategic analysis of large datasets 
+          to identify trends, insights, and business opportunities. I applied my technical expertise 
+          in software engineering to develop robust data models, implement analytical solutions, 
+          and guide decision-making processes. My role involved collaborating with clients and 
+          stakeholders to define project objectives, manage resources, and deliver high-quality 
+          data-driven solutions on time.
+      - role: Senior - Digital, Data and Analytics
+        time: 2017 - 2019
+        company: EY, Argentina
+        details: |
+          I applied analytical thinking and leveraged artificial capabilities to drive data-driven
+          insights and solutions. I played a key role in analyzing complex data sets, identifying 
+          trends, and providing actionable recommendations. With my expertise in advanced analytics
+          and machine learning, I contributed to the development and implementation of innovative 
+          analytical models and techniques. Through collaborative efforts, I delivered impactful 
+          results, optimized processes, and enabled data-driven decision-making to support business 
+          growth and operational excellence.
+      - role: Consultant
+        time: 2015 - 2015
+        company: Matriz, Argentina
+        details: |
+          I specialized in developing machine learning models for the stock market industry. 
+          Leveraging my expertise in data analysis and programming, I designed and implemented robust 
+          algorithms to predict market trends and optimize investment strategies. I worked closely 
+          with cross-functional teams to gather and preprocess data, train models, and evaluate their 
+          performance..
+      - role: Professor - Data Analytics
+        time: 2022 - Present
+        company: Universidad de San Andrés
+        details: |
+          I instructed and guided students in the principles and techniques of data analysis for 
+          business applications. I developed and facilitated hands-on learning experiences, including
+          practical exercises and case studies. By fostering a dynamic and engaging learning environment,
+          I taught students the analytical skills necessary to extract meaningful insights from data
+          and drive informed business strategies.
+      - role: Professor - Artificial Intelligence
         time: 2017 - 2022
         company: Universidad Argentina de la Empresa
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-
+          I taught and mentored students in the field of AI, covering topics such as machine learning, 
+          natural language processing, and computer vision. Additionally, I provided guidance to students 
+          on projects and supervised their research endeavors.
+          
 certifications:
       title: Certifications
       list:

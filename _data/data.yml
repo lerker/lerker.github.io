@@ -158,12 +158,12 @@ certifications:
       title: Certifications
       list:
         - name: Azure Data Scientist
-          start: 2020
-          end: 2021
+          start: 2021
+          end: 2024
           organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
+          credentialid: DP-100
+          credentialurl: https://www.credly.com/badges/5ab30e0f-23ee-4625-879f-a2163c0001da/public_url
+          credentialname: Azure
           details: |
             <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="5ab30e0f-23ee-4625-879f-a2163c0001da" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script> 
         - name: Git learning

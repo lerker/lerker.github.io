@@ -17,7 +17,9 @@ layout: default
   {% include projects.html %}
 {% endunless %}
 
-{% include oss-contributions.html %}
+{% unless site.data.data.sidebar.ossec %}
+  {% include oss-contributions.html %}
+{% endunless %}
 
 {% include publications.html %}
 

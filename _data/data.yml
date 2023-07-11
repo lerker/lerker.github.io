@@ -168,16 +168,13 @@ certifications:
             Earning the Azure Data Scientist Associate certification validates the skills and knowledge to
             apply Azure’s machine learning techniques to train, evaluate, and deploy models that solve 
             business problems.
-
-            <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="5ab30e0f-23ee-4625-879f-a2163c0001da" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script> 
-
-            <div style="display: flex; justify-content: center; align-items: center;">
+          
+            <div style="display: flex; justify-content: center; align-items: center;"> <!-- height: 100vh; -->
               <div>
                 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="5ab30e0f-23ee-4625-879f-a2163c0001da" data-share-badge-host="https://www.credly.com"></div>
                 <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
               </div>
             </div>
-
 
         - name: Data Science
           start: 2018
@@ -197,7 +194,12 @@ certifications:
               - Involved in 2–3 data science client engagements in a junior/intermediate role
               - Share knowledge through thought leadership, coaching, conferences, social media, client presentations or other relevant channels
             
-            <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="fea67c64-2193-4958-b911-f7c5cab320dd" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+            <div style="display: flex; justify-content: center; align-items: center;"> <!-- height: 100vh; -->
+              <div>
+                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="fea67c64-2193-4958-b911-f7c5cab320dd" data-share-badge-host="https://www.credly.com"></div>
+                <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+              </div>
+            </div>
         
 projects:
     title: Projects

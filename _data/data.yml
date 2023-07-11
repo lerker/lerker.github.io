@@ -100,6 +100,9 @@ experiences:
           best practices. Overall, I leverage strategic thinking, technical expertise, and leadership
           skills to maximize the value of data and empower data-driven decision-making across 
           the organization.
+          #  - punto 1
+          #  - punto 2
+          #  - punto 3
       - role: Manager - Digital, Data and Analytics
         time: 2019 - 2022
         company: EY, Argentina
@@ -124,13 +127,13 @@ experiences:
           growth and operational excellence.
       - role: Consultant
         time: 2015 - 2015
-        company: Matriz, Argentina
+        company: Matriz S.A, Argentina
         details: |
           I specialized in developing machine learning models for the stock market industry. 
           Leveraging my expertise in data analysis and programming, I designed and implemented robust 
           algorithms to predict market trends and optimize investment strategies. I worked closely 
           with cross-functional teams to gather and preprocess data, train models, and evaluate their 
-          performance..
+          performance.
       - role: Professor - Data Analytics
         time: 2022 - Present
         company: Universidad de San Andrés
@@ -237,10 +240,8 @@ oss:
 
 publications:
     title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+    #intro: |
+    #  ABC
     papers:
       - title: Development of an open source library for the generation of video synopsis
         link: "https://ieeexplore.ieee.org/document/7497179"

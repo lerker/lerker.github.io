@@ -100,9 +100,9 @@ experiences:
           best practices. Overall, I leverage strategic thinking, technical expertise, and leadership
           skills to maximize the value of data and empower data-driven decision-making across 
           the organization.
-          #  - punto 1
-          #  - punto 2
-          #  - punto 3
+      #     - punto 1
+      #     - punto 2
+      #     - punto 3
       - role: Manager - Digital, Data and Analytics
         time: 2019 - 2022
         company: EY, Argentina

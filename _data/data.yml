@@ -165,23 +165,30 @@ certifications:
           credentialurl: https://www.credly.com/badges/5ab30e0f-23ee-4625-879f-a2163c0001da/public_url
           credentialname: Azure
           details: |
+            Earning the Azure Data Scientist Associate certification validates the skills and knowledge to
+            apply Azure’s machine learning techniques to train, evaluate, and deploy models that solve 
+            business problems.
+            
             <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="5ab30e0f-23ee-4625-879f-a2163c0001da" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script> 
-        - name: Git learning
-          start: 2019
+        - name: Data Science
+          start: 2018
           end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
+          organization: EY
+          credentialid: Silver
+          credentialurl: https://www.credly.com/badges/fea67c64-2193-4958-b911-f7c5cab320dd/public_url
+          credentialname: EY
           details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur 
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh. 
-            Aenean fermentum, felis vulputate suscipit accumsan, 
-            sem enim bibendum augue, sed convallis arcu lacus at dui. 
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor. 
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim. 
-            Praesent venenatis erat non augue suscipit consectetur. 
+            Earners of this badge have a broad understanding of the data science subject area and have
+            in-depth knowledge of one or two of the following capabilities: data mining, machine learning, 
+            predictive and prescriptive analytics, real-time analytics, unstructured data analytics, deep 
+            learning, and advanced math and stats. This person is a practitioner who has hands-on 
+            experience extracting relevant business knowledge and insights from data and is actively 
+            involved in related projects.
+              - Complete 40 hours of online, classroom or on-project training
+              - Involved in 2–3 data science client engagements in a junior/intermediate role
+              - Share knowledge through thought leadership, coaching, conferences, social media, client presentations or other relevant channels
+            
+            <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="fea67c64-2193-4958-b911-f7c5cab320dd" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
         
 projects:
     title: Projects

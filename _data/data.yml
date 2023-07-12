@@ -262,6 +262,27 @@ publications:
         authors: J. Olivera, N. P. Cuadra, E. Oliva, E. Albornoz and C. Martínez
         conference: "2015 XVI Workshop on Information Processing and Control (RPIC), Cordoba, Argentina, 2015, pp. 1-4, DOI: 10.1109/RPIC.2015.7497179"
 
+conferences:
+      title: Conferences &amp Talks
+      list:
+        - name: Azure Data Scientist
+          start: 2021
+          end: 2024
+          organization: Microsoft
+          credentialid: DP-100
+          credentialurl: https://www.credly.com/badges/5ab30e0f-23ee-4625-879f-a2163c0001da/public_url
+          credentialname: Azure
+          details: |
+            Earning the Azure Data Scientist Associate certification validates the skills and knowledge to
+            apply Azure’s machine learning techniques to train, evaluate, and deploy models that solve 
+            business problems.
+          
+            <div style="display: flex; justify-content: center; align-items: center;"> <!-- height: 100vh; -->
+              <div>
+                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="5ab30e0f-23ee-4625-879f-a2163c0001da" data-share-badge-host="https://www.credly.com"></div>
+                <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+              </div>
+            </div>
 
 skills:
     title: Skills &amp; Proficiency

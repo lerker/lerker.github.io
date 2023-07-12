@@ -219,7 +219,6 @@ certifications:
           credentialurl: 
           credentialname: SAS
           details: |
-            asd
 
         - name: Desarrollo de aplicaciones Web PHP, MySQL y MVC.
           start: 2015
@@ -229,7 +228,6 @@ certifications:
           credentialurl: 
           credentialname: UNL
           details: |
-            asdsa
         
 projects:
     title: Projects

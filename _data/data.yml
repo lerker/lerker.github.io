@@ -201,6 +201,16 @@ certifications:
               </div>
             </div>
 
+        - name: Modern Deep Learning in Python.
+          start: 2018
+          end:
+          organization: Udemy
+          credentialid:
+          credentialurl: 
+          credentialname: Udemy
+          details: |
+            Modern Deep Learning in Python: Build with modern libraries like Tensorflow, Theano, Keras, PyTorch, CNTK, MXNet. Train faster with GPU on AWS. 21 de Mayo, 2018. Udemy. MOOC from Lazy Programmer Inc.
+
         - name: SAS Programming I.
           start: 2017
           end:
@@ -209,6 +219,7 @@ certifications:
           credentialurl: 
           credentialname: SAS
           details: |
+            asd
 
         - name: Desarrollo de aplicaciones Web: PHP, MySQL y MVC.
           start: 2015
@@ -218,7 +229,7 @@ certifications:
           credentialurl: 
           credentialname: UNL
           details: |
-            
+            asdsa
         
 projects:
     title: Projects

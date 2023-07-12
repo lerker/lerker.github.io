@@ -22,16 +22,16 @@
 
       <div class="second-upper-row">
         <div class="cert-org">
-          {{ conferences.organization }} {% if conferences.credentialid %}
-          ({{ conferences.credentialid }}) {% endif %}
+          {{ conferences.where }} {% if conferences.place %}
+          ({{ conferences.place }}) {% endif %}
         </div>
-        {% if conferences.credentialurl %}
+        {% if conferences.conferenceurl %}
         <div class="cert-url">
           <a
-            href="//{{ conferences.credentialurl }}"
+            href="//{{ conferences.conferenceurl }}"
             target="_blank"
             rel="noreferrer nofollow noopener"
-            >{{ conferences.credentialname }}</a
+            >{{ conferences.conferenceas }}</a
           >
         </div>
         {% endif %}

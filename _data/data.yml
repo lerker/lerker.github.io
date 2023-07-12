@@ -201,12 +201,82 @@ certifications:
               </div>
             </div>
 
+        - name: Creativity, Design Thinking, and Innovation for Business.
+          start: 2021
+          end:
+          organization: Udemy
+          credentialid:
+          credentialurl:  https://www.udemy.com/certificate/UC-51df54c8-c79e-4298-b44b-71c55602d0d0/
+          credentialname: Udemy
+          details: |
+            Creativity, Design Thinking, and Innovation for Business: Creativity that Create an Innovative Corporate Culture Using Design Thinking & Problem Solving for the Workplace.
+
+        - name: Agile Crash Couse - Agile Project Management &amp Agile Delivery.
+          start: 2021
+          end:
+          organization: Udemy
+          credentialid:
+          credentialurl:  https://www.udemy.com/certificate/UC-6142aec2-a298-4175-8f46-74633c1328a8/
+          credentialname: Udemy
+          details: |
+            Agile Crash Couse - Agile Project Management &amp Agile Delivery: Get Agile Certified & Learn about the key and most important concepts and tools of Agile Project Management (Scrum).
+
+        - name: Power BI Master Class - Query Editor.
+          start: 2021
+          end:
+          organization: Udemy
+          credentialid:
+          credentialurl:  https://www.udemy.com/certificate/UC-bc8fed41-c076-4afb-97b2-b3d6d06a6bba/
+          credentialname: Udemy
+          details: |
+            Power BI Master Class - Query Editor: Learn how to import, transform and prepare data using the Query Editor in Microsoft Power BI.
+
+        - name: Machine Learning, Data Sciece and Deep Learning with Python.
+          start: 2021
+          end:
+          organization: Udemy
+          credentialid:
+          credentialurl:  https://www.udemy.com/certificate/UC-077848f0-9116-4736-878d-48c2ec1424ce/
+          credentialname: Udemy
+          details: |
+            Machine Learning, Data Sciece and Deep Learning with Python: Complete hands-on machine learning tutorial with data science, Tensorflow, artificial intelligence, and neural networks.
+
+        - name: Statistics for Data Science and Business Analysis.
+          start: 2021
+          end:
+          organization: Udemy
+          credentialid:
+          credentialurl:  https://www.udemy.com/certificate/UC-58b34d15-0244-4384-bbea-8b7539f3424c/
+          credentialname: Udemy
+          details: |
+            Statistics for Data Science and Business Analysis: Descriptive & Inferential statistics, Hypothesis testing, Regression analysis.
+
+        - name: Complete SQL Bootcamp.
+          start: 2020
+          end:
+          organization: Udemy
+          credentialid:
+          credentialurl:  https://www.udemy.com/certificate/UC-72970e04-b91b-4af0-a8e6-f1995e62dc14/
+          credentialname: Udemy
+          details: |
+            Complete SQL Bootcamp 2020: Go from Zero to Hero.
+
+        - name: Blockchain A-Z™.
+          start: 2019
+          end:
+          organization: Udemy
+          credentialid:
+          credentialurl:  https://www.udemy.com/certificate/UC-A932O7NB/
+          credentialname: Udemy
+          details: |
+            Blockchain A-Z™ Learn: How To Build Your First Blockchain.
+
         - name: Modern Deep Learning in Python.
           start: 2018
           end:
           organization: Udemy
           credentialid:
-          credentialurl: 
+          credentialurl:  https://www.udemy.com/certificate/UC-0AS6A14R/
           credentialname: Udemy
           details: |
             Modern Deep Learning in Python: Build with modern libraries like Tensorflow, Theano, Keras, PyTorch, CNTK, MXNet. Train faster with GPU on AWS. 21 de Mayo, 2018. Udemy. MOOC from Lazy Programmer Inc.

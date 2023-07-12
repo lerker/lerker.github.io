@@ -275,6 +275,36 @@ conferences:
           details: |
             Microsoft Experience 2018 LATAM - Track Solutions: Machine Learning by Industry.
 
+        - name: Encuentro de Jóvenes Investigadores (EJI).
+          start: 2015/10
+          end: 
+          where: Santa Fe
+          place: Santa Fe
+          conferenceurl: https://bibliotecavirtual.unl.edu.ar:8443/handle/11185/1488
+          conferenceas: Speaker
+          details: |
+            OpenSourceVS: biblioteca de código abierto para video sinopsis. Mention: First place.
+
+        - name: XVI Workshop on Information Processing and Control (RPIC).
+          start: 2015/10
+          end: 
+          where: Córdoba
+          place: Universidad Tecnológica Nacional
+          conferenceurl: rpic.com.ar
+          conferenceas: Speaker
+          details: |
+            Desarrollo de una biblioteca de código abierto para la realización de video sinopsis. Mention: Third place.
+        
+        - name: Jornadas Argentinas de Informática Operativa N◦44 (JAIIO).
+          start: 2015/08
+          end: 
+          where: Santa Fe
+          place: Universidad Tecnológica Nacional
+          conferenceurl: https://drive.google.com/file/d/0B4EJjjapcupUN2RXbVBWZ1dtamM/view?resourcekey=0-FeyDSZiGEvckORD4Qz0isg
+          conferenceas: Assistant
+          details: |
+            Simposio Argentino de GRANdes DAtos (GRANDA), Simposio Argentino de Ingeniería de Software, Simposio Argentino de Ontologías y sus Aplicaciones, Simposio Argentino de Informática Industrial, Simposio de Informática en el Estado. Organizador: Sociedad Argentina de Informática (SADIO).
+
 skills:
     title: Skills &amp; Proficiency
 

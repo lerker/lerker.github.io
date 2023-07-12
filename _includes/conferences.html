@@ -13,7 +13,11 @@
     <div class="meta">
       <div class="upper-row">
         <h3 class="cert-title">
-            <i class="fas fa-dot-circle-o"></i>{{ conferences.name }}</h3>
+          <span class="fa-stack fa-xs">
+            <i class="fas fa-dot-circle-o"></i>
+          </span>
+          {{ conferences.name }}
+        </h3>
         <div class="time">
           {{ conferences.start }} {% if conferences.end %} - {{
           conferences.end }} {% endif %}

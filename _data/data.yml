@@ -155,7 +155,7 @@ experiences:
           on projects and supervised their research endeavors.
           
 certifications:
-      title: Certifications
+      title: Certifications &amp Courses
       list:
         - name: Azure Data Scientist
           start: 2021
@@ -200,6 +200,25 @@ certifications:
                 <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
               </div>
             </div>
+
+        - name: SAS Programming I.
+          start: 2017
+          end:
+          organization: SAS Institute Argentina S.A.S
+          credentialid: Essentials
+          credentialurl: 
+          credentialname: SAS
+          details: |
+
+        - name: Desarrollo de aplicaciones Web: PHP, MySQL y MVC.
+          start: 2015
+          end:
+          organization: Universidad Nacional del Litoral.
+          credentialid:
+          credentialurl: 
+          credentialname: UNL
+          details: |
+            
         
 projects:
     title: Projects
@@ -265,7 +284,7 @@ publications:
 conferences:
       title: Conferences &amp Talks
       list:
-        - name: - Microsoft Data & AI.
+        - name: Microsoft Data & AI.
           start: 2018/03
           end: 
           where: Buenos Aires
@@ -275,7 +294,7 @@ conferences:
           details: |
             Microsoft Experience 2018 LATAM - Track Solutions: Machine Learning by Industry.
 
-        - name: - Encuentro de Jóvenes Investigadores (EJI).
+        - name: Encuentro de Jóvenes Investigadores (EJI).
           start: 2015/10
           end: 
           where: Santa Fe
@@ -285,7 +304,7 @@ conferences:
           details: |
             OpenSourceVS: biblioteca de código abierto para video sinopsis. Mention: First place.
 
-        - name: - XVI Workshop on Information Processing and Control (RPIC).
+        - name: XVI Workshop on Information Processing and Control (RPIC).
           start: 2015/10
           end: 
           where: Córdoba
@@ -295,7 +314,7 @@ conferences:
           details: |
             Desarrollo de una biblioteca de código abierto para la realización de video sinopsis. Mention: Third place.
         
-        - name: - Jornadas Argentinas de Informática Operativa N◦44 (JAIIO).
+        - name: Jornadas Argentinas de Informática Operativa N◦44 (JAIIO).
           start: 2015/08
           end: 
           where: Santa Fe

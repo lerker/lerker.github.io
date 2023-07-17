@@ -192,6 +192,13 @@ certifications:
               </div>
             </div>
 
+            <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+              <div style="max-width: 100%; width: 100%;">
+                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="fea67c64-2193-4958-b911-f7c5cab320dd" data-share-badge-host="https://www.credly.com"></div>
+              </div>
+            </div>
+            <script defer src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
 
             <div style="display: flex; justify-content: center; align-items: center;"> <!-- height: 100vh; -->
               <div>

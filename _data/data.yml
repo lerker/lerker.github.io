@@ -192,15 +192,6 @@ certifications:
               </div>
             </div>
 
-            <div style="display: flex; justify-content: center; align-items: center;">
-              <div>
-                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="fea67c64-2193-4958-b911-f7c5cab320dd" data-share-badge-host="https://www.credly.com"></div>
-              </div>
-            </div>
-
-            <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-
-
         - name: Creativity, Design Thinking, and Innovation for Business.
           start: 2021
           end:

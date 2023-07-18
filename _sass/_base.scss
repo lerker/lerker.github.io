@@ -285,3 +285,23 @@ p {
   }
 }
 
+.credit {
+  font-size: 14px;
+  color: #888;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.credit i {
+  color: #e74c3c;
+}
+
+.credit a {
+  color: #888;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.credit a:hover {
+  color: #e74c3c;
+}

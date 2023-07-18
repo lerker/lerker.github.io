@@ -286,7 +286,7 @@ p {
 }
 
 .credit {
-  font-size: 14px;
+  font-size: 13px;
   color: #888;
   text-align: center;
   margin-top: 20px;
@@ -304,4 +304,8 @@ p {
 
 .credit a:hover {
   color: #e74c3c;
+}
+
+.highlight:hover {
+  color: red;
 }

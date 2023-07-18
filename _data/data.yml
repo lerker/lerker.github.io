@@ -28,7 +28,7 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: https://github.com/lerker/lerker.github.io/blob/master/NelsonP_cv.pdf
+    pdf: https://lerker.github.io/NelsonP_cv.pdf
 
     projectsec: True
     ossec: True

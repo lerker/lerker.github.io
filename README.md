@@ -3,11 +3,11 @@
 </a>
 
 # Orbit
-> This theme is designed by Xiaoying Riley at [3rd Wave Media](http://themes.3rdwavemedia.com/).
-> Visit her [website](http://themes.3rdwavemedia.com/) for more themes.
+> This theme is designed by Xiaoying Riley at [3rd Wave Media](https://github.com/xriley).
+> Visit her [GitHub profile](https://github.com/xriley) for more themes.
 
 This is a fork. 
 
-You can also visit: 
- - https://themes.3rdwavemedia.com/
+You can also visit:
+ - https://github.com/xriley
  - https://github.com/RobertDeRose/pillar-resume-template

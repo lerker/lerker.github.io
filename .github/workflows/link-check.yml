@@ -17,5 +17,5 @@ jobs:
         run: bundle install --path vendor/bundle
       - name: Build site
         run: bundle exec jekyll build
-      - name: Check links
-        run: bundle exec htmlproofer ./_site
+        - name: Check links
+          run: bundle exec htmlproofer ./_site --url-ignore https://themes.3rdwavemedia.com

@@ -1,0 +1,331 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+  position: left # posición de la barra lateral : left or right
+  #about: True # set to False if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
+
+  # Información del perfil
+  name: Nelson Ponzoni
+  tagline: Gerente de Analítica de Datos
+  avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+  # Enlaces de la barra lateral
+  email: npcuadra@gmail.com
+  #phone: 012 345 6789
+  timezone: Zona horaria de América/Argentina
+  citizenship:
+  #website: blog.webjeda.com # do not add http://
+  linkedin: ponzoni-nelson
+  xing:
+  github: lerker
+  telegram:
+  gitlab:
+  bitbucket:
+  twitter: '@NelsonPonzoni'
+  stack-overflow:
+  codewars:
+  goodreads:
+  pdf: https://lerker.github.io/NelsonP_cv.pdf
+
+  projectsec: True
+  ossec: True
+
+  languages:
+    title: Idiomas
+    info:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Inglés
+        level: B2 CEFR English - First Certificate
+
+  interests:
+    title: Intereses
+    info:
+      - item: Ciclismo
+        link:
+
+career-profile:
+  title: Perfil Profesional
+  summary: |
+    Como ingeniero en informática con más de seis años de experiencia en roles gerenciales dentro de los campos de consultoría y educación universitaria, y con una sólida formación en informática, he demostrado constantemente mi capacidad para liderar equipos y entregar resultados excepcionales tanto en proyectos de consultoría como en entornos académicos.
+
+    Mi experiencia radica en brindar orientación estratégica y soluciones innovadoras a los clientes, aprovechando mi dominio técnico para impulsar la eficiencia y optimizar procesos. A través de mi trayectoria como gerente, he desarrollado una aguda comprensión de las necesidades del cliente, gestionando proyectos complejos desde la concepción hasta la finalización y asegurando entregables de alta calidad dentro de los plazos establecidos. Además, mi pasión por la enseñanza me ha permitido transmitir conocimientos de forma eficaz, tanto en el aula como en talleres.
+
+    Con un enfoque en fomentar la colaboración, empoderar equipos y mantenerme al día con los últimos avances tecnológicos, soy experto en navegar entornos dinámicos e inspirar a otros a alcanzar su máximo potencial. Estoy deseoso de aportar mi conjunto diverso de habilidades, mi liderazgo y mi dedicación a la excelencia a un nuevo desafío, donde pueda contribuir a impulsar la innovación y el éxito.
+
+education:
+  title: Educación
+  info:
+    - degree: Licenciatura en Ciencias de la Computación e Ingeniería
+      university: Universidad Nacional del Litoral
+      time: 2009 - 2017
+      details: |
+
+experiences:
+  title: Experiencia
+  info:
+    - role: Sr Manager - Digital, Data and Analytics
+      time: 2022 - Presente
+      company: EY, Argentina
+      details: |
+        Como Senior Data and Analytics Manager, lidero y desarrollo equipos de alto rendimiento, impulsando su crecimiento para ofrecer soluciones impactantes basadas en datos. Encabezo el análisis estratégico de áreas clave, utilizando técnicas avanzadas de analítica para descubrir conocimientos que promuevan el crecimiento del negocio y mejoren la eficiencia operativa. Además, aseguro la alineación de las iniciativas de datos con los objetivos financieros, gestionando eficazmente presupuestos y recursos. Mediante la colaboración con grupos interdisciplinarios, establezco marcos de datos robustos, implemento arquitecturas escalables y promuevo la adopción de mejores prácticas. En general, aprovecho el pensamiento estratégico, la experiencia técnica y las habilidades de liderazgo para maximizar el valor de los datos y potenciar la toma de decisiones basada en datos en toda la organización.
+    - role: Manager - Digital, Data and Analytics
+      time: 2019 - 2022
+      company: EY, Argentina
+      details: |
+        Como Data Analytics Manager, fui responsable de supervisar proyectos basados en datos y liderar un equipo de ingenieros de software. Impulsé el análisis estratégico de grandes conjuntos de datos para identificar tendencias, conocimientos y oportunidades de negocio. Apliqué mi experiencia técnica en ingeniería de software para desarrollar modelos de datos robustos, implementar soluciones analíticas y guiar los procesos de toma de decisiones. Mi rol implicó colaborar con clientes y partes interesadas para definir objetivos de proyecto, gestionar recursos y entregar soluciones basadas en datos de alta calidad a tiempo.
+    - role: Senior - Digital, Data and Analytics
+      time: 2017 - 2019
+      company: EY, Argentina
+      details: |
+        Apliqué el pensamiento analítico y aproveché capacidades artificiales para impulsar conocimientos y soluciones basadas en datos. Jugué un papel clave en el análisis de conjuntos de datos complejos, identificando tendencias y proporcionando recomendaciones accionables. Con mi experiencia en analítica avanzada y aprendizaje automático, contribuí al desarrollo e implementación de modelos y técnicas analíticas innovadoras. A través de esfuerzos colaborativos, entregué resultados impactantes, optimicé procesos y permití la toma de decisiones basada en datos para apoyar el crecimiento del negocio y la excelencia operativa.
+    - role: Consultant
+      time: 2015 - 2015
+      company: Matriz S.A, Argentina
+      details: |
+        Me especialicé en desarrollar modelos de aprendizaje automático para la industria del mercado bursátil. Aprovechando mi experiencia en análisis de datos y programación, diseñé e implementé algoritmos robustos para predecir tendencias del mercado y optimizar estrategias de inversión. Trabajé estrechamente con equipos multifuncionales para recopilar y preprocesar datos, entrenar modelos y evaluar su rendimiento.
+    - role: Profesor - Analítica de Datos
+      time: 2022 - Presente
+      company: Universidad de San Andrés
+      details: |
+        Instruyo y guío a los estudiantes en los principios y técnicas del análisis de datos para aplicaciones empresariales. Desarrollé y facilité experiencias de aprendizaje prácticas, incluyendo ejercicios y estudios de caso. Al fomentar un entorno de aprendizaje dinámico y atractivo, enseñé a los estudiantes las habilidades analíticas necesarias para extraer conocimientos significativos de los datos y conducir estrategias empresariales informadas.
+    - role: Profesor - Inteligencia Artificial
+      time: 2017 - 2022
+      company: Universidad Argentina de la Empresa
+      details: |
+        Enseñé y asesoré a los estudiantes en el campo de la IA, cubriendo temas como aprendizaje automático, procesamiento de lenguaje natural y visión por computadora. Además, brindé orientación a los estudiantes en proyectos y supervisé sus esfuerzos de investigación.
+
+certifications:
+  title: Certificaciones y Cursos
+  list:
+    - name: Azure Data Scientist
+      start: 2021
+      end: 2024
+      organization: Microsoft
+      credentialid: DP-100
+      credentialurl: https://www.credly.com/badges/5ab30e0f-23ee-4625-879f-a2163c0001da/public_url
+      credentialname: Azure
+      details: |
+        Obtener la certificación Azure Data Scientist Associate valida las habilidades y conocimientos para aplicar las técnicas de aprendizaje automático de Azure para entrenar, evaluar y desplegar modelos que resuelvan problemas de negocio.
+
+        <div style="display: flex; justify-content: center; align-items: center;">
+          <div>
+            <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="5ab30e0f-23ee-4625-879f-a2163c0001da" data-share-badge-host="https://www.credly.com"></div>
+            <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+          </div>
+        </div>
+    - name: Data Science
+      start: 2018
+      end:
+      organization: EY
+      credentialid: Silver
+      credentialurl: https://www.credly.com/badges/fea67c64-2193-4958-b911-f7c5cab320dd/public_url
+      credentialname: EY
+      details: |
+        Los poseedores de esta insignia tienen un amplio entendimiento del área de ciencia de datos y un conocimiento profundo de una o dos de las siguientes capacidades: minería de datos, aprendizaje automático, analítica predictiva y prescriptiva, analítica en tiempo real, analítica de datos no estructurados, deep learning y matemática y estadística avanzada. Esta persona es un practicante con experiencia práctica extrayendo conocimiento e insights relevantes del negocio a partir de datos y participa activamente en proyectos relacionados.
+          - Completar 40 horas de formación en línea, en aula o en proyectos
+          - Participar en 2–3 compromisos de clientes de ciencia de datos en un rol junior/intermedio
+          - Compartir conocimiento mediante liderazgo de pensamiento, tutoría, conferencias, redes sociales, presentaciones a clientes u otros canales relevantes
+
+        <div style="display: flex; justify-content: center; align-items: center;">
+          <div>
+            <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="fea67c64-2193-4958-b911-f7c5cab320dd" data-share-badge-host="https://www.credly.com"></div>
+            <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+          </div>
+        </div>
+    - name: Creatividad, Design Thinking e Innovación para los Negocios.
+      start: 2021
+      end:
+      organization: Udemy
+      credentialid:
+      credentialurl: www.udemy.com/certificate/UC-51df54c8-c79e-4298-b44b-71c55602d0d0/
+      credentialname: Udemy
+      details: |
+        Creatividad, Design Thinking e Innovación para los Negocios: creatividad que crea una cultura corporativa innovadora usando Design Thinking y resolución de problemas para el lugar de trabajo.
+    - name: Agile Crash Course - Agile Project Management &amp Agile Delivery.
+      start: 2021
+      end:
+      organization: Udemy
+      credentialid:
+      credentialurl: www.udemy.com/certificate/UC-6142aec2-a298-4175-8f46-74633c1328a8/
+      credentialname: Udemy
+      details: |
+        Agile Crash Course - Agile Project Management & Agile Delivery: obtén la certificación Agile y aprende sobre los conceptos y herramientas más importantes de la gestión de proyectos Agile (Scrum).
+    - name: Power BI Master Class - Query Editor.
+      start: 2021
+      end:
+      organization: Udemy
+      credentialid:
+      credentialurl: www.udemy.com/certificate/UC-bc8fed41-c076-4afb-97b2-b3d6d06a6bba/
+      credentialname: Udemy
+      details: |
+        Power BI Master Class - Query Editor: aprende a importar, transformar y preparar datos usando el Query Editor en Microsoft Power BI.
+    - name: Machine Learning, Data Science and Deep Learning with Python.
+      start: 2021
+      end:
+      organization: Udemy
+      credentialid:
+      credentialurl: www.udemy.com/certificate/UC-077848f0-9116-4736-878d-48c2ec1424ce/
+      credentialname: Udemy
+      details: |
+        Machine Learning, Data Science and Deep Learning with Python: tutorial práctico completo de machine learning con ciencia de datos, Tensorflow, inteligencia artificial y redes neuronales.
+    - name: Statistics for Data Science and Business Analysis.
+      start: 2021
+      end:
+      organization: Udemy
+      credentialid:
+      credentialurl: www.udemy.com/certificate/UC-58b34d15-0244-4384-bbea-8b7539f3424c/
+      credentialname: Udemy
+      details: |
+        Statistics for Data Science and Business Analysis: estadística descriptiva e inferencial, pruebas de hipótesis, análisis de regresión.
+    - name: Complete SQL Bootcamp.
+      start: 2020
+      end:
+      organization: Udemy
+      credentialid:
+      credentialurl: www.udemy.com/certificate/UC-72970e04-b91b-4af0-a8e6-f1995e62dc14/
+      credentialname: Udemy
+      details: |
+        Complete SQL Bootcamp 2020: de cero a héroe.
+    - name: Blockchain A-Z™.
+      start: 2019
+      end:
+      organization: Udemy
+      credentialid:
+      credentialurl: www.udemy.com/certificate/UC-A932O7NB/
+      credentialname: Udemy
+      details: |
+        Blockchain A-Z™ Learn: cómo construir tu primera blockchain.
+    - name: Modern Deep Learning in Python.
+      start: 2018
+      end:
+      organization: Udemy
+      credentialid:
+      credentialurl: www.udemy.com/certificate/UC-0AS6A14R/
+      credentialname: Udemy
+      details: |
+        Modern Deep Learning in Python: construye con bibliotecas modernas como Tensorflow, Theano, Keras, PyTorch, CNTK, MXNet. Entrena más rápido con GPU en AWS. 21 de Mayo, 2018. Udemy. MOOC de Lazy Programmer Inc.
+    - name: SAS Programming I.
+      start: 2017
+      end:
+      organization: SAS Institute Argentina S.A.S
+      credentialid: Essentials
+      credentialurl:
+      credentialname: SAS
+      details: |
+    - name: Desarrollo de aplicaciones Web PHP, MySQL y MVC.
+      start: 2015
+      end:
+      organization: Universidad Nacional del Litoral.
+      credentialid:
+      credentialurl:
+      credentialname: UNL
+      details: |
+
+projects:
+  title: Proyectos
+  intro: >
+    Puedes listar tus proyectos personales en esta sección. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: Velocity
+      link: "#hook"
+      tagline: "Una plantilla web responsiva diseñada para ayudar a startups a promocionar, comercializar y vender sus productos."
+    - title: DevStudio
+      link: "#"
+      tagline: "Una plantilla web responsiva diseñada para ayudar a desarrolladores/diseñadores web a promocionar sus servicios."
+    - title: Tempo
+      link: "#"
+      tagline: "Una plantilla web responsiva diseñada para ayudar a startups a promocionar sus productos o servicios y atraer usuarios e inversores."
+    - title: Atom
+      link: "#"
+      tagline: "Una solución completa de plantilla web para que startups/desarrolladores promocionen sus aplicaciones móviles."
+    - title: Delta
+      link: "#"
+      tagline: "Un tema de una página en Bootstrap diseñado para ayudar a desarrolladores de apps a promocionar sus aplicaciones móviles."
+oss:
+  title: Contribuciones OSS
+  intro: >
+    Puedes listar tus contribuciones a software de código abierto en esta sección. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  contributions:
+    - title: Tempo
+      link: "#"
+      tagline: "Una plantilla web responsiva diseñada para ayudar a startups a promocionar sus productos o servicios y atraer usuarios e inversores."
+    - title: Atom
+      link: "#"
+      tagline: "Una solución completa de plantilla web para que startups/desarrolladores promocionen sus aplicaciones móviles."
+    - title: Delta
+      link: "#"
+      tagline: "Un tema de una página en Bootstrap diseñado para ayudar a desarrolladores de apps a promocionar sus aplicaciones móviles"
+publications:
+  title: Publicaciones y Artículos
+  #intro: |
+  #  ABC
+  papers:
+    - title: "Desarrollo de una biblioteca para sistemas basados en aprendizaje profundo mediante GP-GPU: aplicación al reconocimiento de emociones (proyecto de grado)"
+      link: "https://sinc.unl.edu.ar/sinc-publications/2017/PRM17a/sinc_PRM17a.pdf"
+      authors: Nelson Eduardo, Ponzoni Cuadra
+      conference: "Tesis de maestría de la Facultad de Ingeniería y Ciencias Hídricas - Universidad Nacional del Litoral - 2017"
+    - title: Development of an open source library for the generation of video synopsis
+      link: "https://ieeexplore.ieee.org/document/7497179"
+      authors: J. Olivera, N. P. Cuadra, E. Oliva, E. Albornoz and C. Martínez
+      conference: "2015 XVI Workshop on Information Processing and Control (RPIC), Córdoba, Argentina, 2015, pp. 1-4, DOI: 10.1109/RPIC.2015.7497179"
+conferences:
+  title: Conferencias y Charlas
+  list:
+    - name: Microsoft Data & AI.
+      start: 2018/03
+      end:
+      where: Buenos Aires
+      place: La Rural
+      conferenceurl: https://www.linkedin.com/posts/sciollapablo_mercedes-combet-y-nelson-ponzoni-participando-activity-6382347162243596288-ImNv?utm_source=li_share&utm_content=feedcontent&utm_medium=g_dt_web&utm_campaign=copy
+      conferenceas: Speaker
+      details: |
+        Microsoft Experience 2018 LATAM - Track Solutions: Machine Learning by Industry.
+    - name: Encuentro de Jóvenes Investigadores (EJI).
+      start: 2015/10
+      end:
+      where: Santa Fe
+      place: Santa Fe
+      conferenceurl: https://bibliotecavirtual.unl.edu.ar:8443/handle/11185/1488
+      conferenceas: Speaker
+      details: |
+        OpenSourceVS: biblioteca de código abierto para video sinopsis. Mención: Primer lugar.
+    - name: XVI Workshop on Information Processing and Control (RPIC).
+      start: 2015/10
+      end:
+      where: Córdoba
+      place: Universidad Tecnológica Nacional
+      conferenceurl: rpic.com.ar
+      conferenceas: Speaker
+      details: |
+        Desarrollo de una biblioteca de código abierto para la realización de video sinopsis. Mención: Tercer lugar.
+    - name: Jornadas Argentinas de Informática Operativa N◦44 (JAIIO).
+      start: 2015/08
+      end:
+      where: Santa Fe
+      place: Universidad Tecnológica Nacional
+      conferenceurl: https://drive.google.com/file/d/0B4EJjjapcupUN2RXbVBWZ1dtamM/view?resourcekey=0-FeyDSZiGEvckORD4Qz0isg
+      conferenceas: Assistant
+      details: |
+        Simposio Argentino de GRANdes DAtos (GRANDA), Simposio Argentino de Ingeniería de Software, Simposio Argentino de Ontologías y sus Aplicaciones, Simposio Argentino de Informática Industrial, Simposio de Informática en el Estado. Organizador: Sociedad Argentina de Informática (SADIO).
+skills:
+  title: Habilidades y Competencias
+  toolset:
+    - name: Python, C++, Java, R, SQL
+      level: 98%
+    - name: MySQL, PostgreSQL, SQL Server
+      level: 98%
+    - name: Pentaho
+      level: 98%
+    - name: Scikit-learn, Spark, Docker, Git, OpenCV, Tensorflow
+      level: 95%
+footer: >
+  <p class="credit">
+    Diseñado con <i class="fas fa-heart"></i> por
+    <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    y adaptado por <span class="highlight">Nelson Ponzoni</span>
+  </p>

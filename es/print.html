@@ -1,8 +1,8 @@
 ---
-layout: default
-lang: en
+layout: print
+permalink: /es/print
+lang: es
 ---
-
 
 {% assign cv = site.data[page.lang] %}
 
@@ -16,17 +16,6 @@ lang: en
 
 {% include certifications.html data=cv %}
 
-{% unless cv.sidebar.projectsec %}
-  {% include projects.html data=cv %}
-{% endunless %}
-
-{% unless cv.sidebar.ossec %}
-  {% include oss-contributions.html data=cv %}
-{% endunless %}
-
 {% include publications.html data=cv %}
 
 {% include conferences.html data=cv %}
-
-{% include skills.html data=cv %}
-

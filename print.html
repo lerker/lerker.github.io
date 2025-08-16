@@ -1,19 +1,22 @@
 ---
 layout: print
 permalink: /print
+lang: en
 ---
 
 
-{% include career-profile.html %}
+{% assign cv = site.data[page.lang] %}
 
-{% unless site.data.data.sidebar.education %}
-  {% include education.html %}
+{% include career-profile.html data=cv %}
+
+{% unless cv.sidebar.education %}
+  {% include education.html data=cv %}
 {% endunless %}
 
-{% include experiences.html %}
+{% include experiences.html data=cv %}
 
-{% include certifications.html %}
+{% include certifications.html data=cv %}
 
-{% include publications.html %}
+{% include publications.html data=cv %}
 
-{% include conferences.html %}
+{% include conferences.html data=cv %}

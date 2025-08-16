@@ -2,21 +2,22 @@
 #Add "layout: compress" here to compress the html code
 ---
 <!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<!--[if IE 8]> <html lang="{{ page.lang | default: 'en' }}" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="{{ page.lang | default: 'en' }}" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="{{ page.lang | default: 'en' }}"> <!--<![endif]-->
 {% include head.html %}
 
 <body>
+  {% assign cv = site.data[page.lang] %}
   <div class="wrapper">
-    {% include sidebar.html %}
+    {% include sidebar.html data=cv %}
 
     <div class="main-wrapper">
         {{ content }}
     </div>
   </div>
 
-  {% include footer.html %}
+  {% include footer.html data=cv %}
 
 {% include scripts.html %}
 </body>

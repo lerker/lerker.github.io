@@ -3,10 +3,10 @@
 ---
 
 <!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if IE 8]> <html lang="{{ page.lang | default: 'en' }}" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="{{ page.lang | default: 'en' }}" class="ie9"> <![endif]-->
 <!--[if !IE]><!-->
-<html lang="en">
+<html lang="{{ page.lang | default: 'en' }}">
   <!--<![endif]-->
   {% include head.html %}
   <style>
@@ -18,8 +18,9 @@
     }
   </style>
   <body>
+    {% assign cv = site.data[page.lang] %}
     <div class="wrapper">
-      {% include sidebar.html %}
+      {% include sidebar.html data=cv %}
 
       <div class="main-wrapper">{{ content }}</div>
     </div>

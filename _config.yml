@@ -22,7 +22,8 @@ sass:
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 # Build settings
-compress-site: yes
+plugins:
+  - jekyll-compress-html
 
 encoding: "utf-8"
 compress_html: # - http://jch.penibelst.de/

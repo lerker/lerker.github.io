@@ -22,14 +22,7 @@ sass:
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 # Build settings
-plugins:
-  - jekyll-compress-html
-
 encoding: "utf-8"
-compress_html: # - http://jch.penibelst.de/
-  clippings: all
-  ignore:
-    envs: development
 
 # Development Settings
 port: 4000

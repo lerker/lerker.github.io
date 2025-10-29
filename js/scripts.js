@@ -161,7 +161,7 @@ $(document).ready(function () {
         },
         data: {
             // Event title
-            title: "Ram and Antara's Wedding",
+            title: "Casamiento de Ram y Antara",
 
             // Event start date
             start: new Date('Nov 27, 2017 10:00'),
@@ -174,10 +174,10 @@ $(document).ready(function () {
             end: new Date('Nov 29, 2017 00:00'),
 
             // Event Address
-            address: 'ITC Fortune Park Hotel, Kolkata',
+            address: 'Hotel ITC Fortune Park, Kolkata',
 
             // Event Description
-            description: "We can't wait to see you on our big day. For any queries or issues, please contact Mr. Amit Roy at +91 9876543210."
+            description: "No vemos la hora de verte en nuestro gran día. Ante cualquier duda o problema, contactá al Sr. Amit Roy al +91 9876543210."
         }
     });
 
@@ -189,11 +189,11 @@ $(document).ready(function () {
         e.preventDefault();
         var data = $(this).serialize();
 
-        $('#alert-wrapper').html(alert_markup('info', '<strong>Just a sec!</strong> We are saving your details.'));
+        $('#alert-wrapper').html(alert_markup('info', '<strong>¡Aguantá un toque!</strong> Estamos guardando tus datos.'));
 
         if (MD5($('#invite_code').val()) !== 'b0e53b10c1f55ede516b240036b88f40'
             && MD5($('#invite_code').val()) !== '2ac7f43695eb0479d5846bb38eec59cc') {
-            $('#alert-wrapper').html(alert_markup('danger', '<strong>Sorry!</strong> Your invite code is incorrect.'));
+            $('#alert-wrapper').html(alert_markup('danger', '<strong>¡Perdón!</strong> Tu código de invitación es incorrecto.'));
         } else {
             $.post('https://script.google.com/macros/s/AKfycbyo0rEknln8LedEP3bkONsfOh776IR5lFidLhJFQ6jdvRiH4dKvHZmtoIybvnxpxYr2cA/exec', data)
                 .done(function (data) {
@@ -207,7 +207,7 @@ $(document).ready(function () {
                 })
                 .fail(function (data) {
                     console.log(data);
-                    $('#alert-wrapper').html(alert_markup('danger', '<strong>Sorry!</strong> There is some issue with the server. '));
+                    $('#alert-wrapper').html(alert_markup('danger', '<strong>¡Perdón!</strong> Tenemos un problema con el servidor. '));
                 });
         }
     });

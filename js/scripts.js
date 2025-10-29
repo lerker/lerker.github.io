@@ -2,50 +2,31 @@ $(document).ready(function () {
 
     /***************** Waypoints ******************/
 
-    $('.wp1').waypoint(function () {
-        $('.wp1').addClass('animated fadeInLeft');
-    }, {
-        offset: '75%'
-    });
-    $('.wp2').waypoint(function () {
-        $('.wp2').addClass('animated fadeInRight');
-    }, {
-        offset: '75%'
-    });
-    $('.wp3').waypoint(function () {
-        $('.wp3').addClass('animated fadeInLeft');
-    }, {
-        offset: '75%'
-    });
-    $('.wp4').waypoint(function () {
-        $('.wp4').addClass('animated fadeInRight');
-    }, {
-        offset: '75%'
-    });
-    $('.wp5').waypoint(function () {
-        $('.wp5').addClass('animated fadeInLeft');
-    }, {
-        offset: '75%'
-    });
-    $('.wp6').waypoint(function () {
-        $('.wp6').addClass('animated fadeInRight');
-    }, {
-        offset: '75%'
-    });
-    $('.wp7').waypoint(function () {
-        $('.wp7').addClass('animated fadeInUp');
-    }, {
-        offset: '75%'
-    });
-    $('.wp8').waypoint(function () {
-        $('.wp8').addClass('animated fadeInLeft');
-    }, {
-        offset: '75%'
-    });
-    $('.wp9').waypoint(function () {
-        $('.wp9').addClass('animated fadeInRight');
-    }, {
-        offset: '75%'
+    var waypointAnimations = {
+        '.wp1': 'fadeInLeft',
+        '.wp2': 'fadeInRight',
+        '.wp3': 'fadeInLeft',
+        '.wp4': 'fadeInRight',
+        '.wp5': 'fadeInLeft',
+        '.wp6': 'fadeInRight',
+        '.wp7': 'fadeInUp',
+        '.wp8': 'fadeInLeft',
+        '.wp9': 'fadeInRight'
+    };
+
+    $.each(waypointAnimations, function (selector, animation) {
+        var $elements = $(selector);
+        if (!$elements.length) {
+            return;
+        }
+
+        var animationClasses = 'animated ' + animation;
+
+        $elements.waypoint(function () {
+            $elements.addClass(animationClasses);
+        }, {
+            offset: '75%'
+        });
     });
 
     /***************** Initiate Flexslider ******************/
@@ -71,73 +52,72 @@ $(document).ready(function () {
     /***************** Nav Transformicon ******************/
 
     /* When user clicks the Icon */
-    $('.nav-toggle').click(function () {
+    $('.nav-toggle').on('click', function (event) {
+        event.preventDefault();
         $(this).toggleClass('active');
         $('.header-nav').toggleClass('open');
-        event.preventDefault();
     });
     /* When user clicks a link */
-    $('.header-nav li a').click(function () {
-        $('.nav-toggle').toggleClass('active');
-        $('.header-nav').toggleClass('open');
-
+    $('.header-nav li a').on('click', function () {
+        $('.nav-toggle').removeClass('active');
+        $('.header-nav').removeClass('open');
     });
 
     /***************** Header BG Scroll ******************/
 
-    $(function () {
-        $(window).scroll(function () {
-            var scroll = $(window).scrollTop();
+    var $window = $(window);
+    var $navigation = $('section.navigation');
+    var $header = $('header');
+    var $memberActions = $('header .member-actions');
+    var $navicon = $('header .navicon');
 
-            if (scroll >= 20) {
-                $('section.navigation').addClass('fixed');
-                $('header').css({
-                    "border-bottom": "none",
-                    "padding": "35px 0"
-                });
-                $('header .member-actions').css({
-                    "top": "26px",
-                });
-                $('header .navicon').css({
-                    "top": "34px",
-                });
-            } else {
-                $('section.navigation').removeClass('fixed');
-                $('header').css({
-                    "border-bottom": "solid 1px rgba(255, 255, 255, 0.2)",
-                    "padding": "50px 0"
-                });
-                $('header .member-actions').css({
-                    "top": "41px",
-                });
-                $('header .navicon').css({
-                    "top": "48px",
-                });
-            }
-        });
+    $window.on('scroll', function () {
+        var scroll = $window.scrollTop();
+
+        if (scroll >= 20) {
+            $navigation.addClass('fixed');
+            $header.css({
+                "border-bottom": "none",
+                "padding": "35px 0"
+            });
+            $memberActions.css({
+                "top": "26px",
+            });
+            $navicon.css({
+                "top": "34px",
+            });
+        } else {
+            $navigation.removeClass('fixed');
+            $header.css({
+                "border-bottom": "solid 1px rgba(255, 255, 255, 0.2)",
+                "padding": "50px 0"
+            });
+            $memberActions.css({
+                "top": "41px",
+            });
+            $navicon.css({
+                "top": "48px",
+            });
+        }
     });
     /***************** Smooth Scrolling ******************/
 
-    $(function () {
+    $('a[href*="#"]:not([href="#"])').on('click', function (event) {
+        if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
 
-        $('a[href*=#]:not([href=#])').click(function () {
-            if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
-
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top - 90
-                    }, 2000);
-                    return false;
-                }
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            if (target.length) {
+                event.preventDefault();
+                $('html,body').animate({
+                    scrollTop: target.offset().top - 90
+                }, 2000);
             }
-        });
-
+        }
     });
 
     /********************** Social Share buttons ***********************/
-    var share_bar = document.getElementsByClassName('share-bar');
+    var shareBars = document.getElementsByClassName('share-bar');
     var po = document.createElement('script');
     po.type = 'text/javascript';
     po.async = true;
@@ -145,7 +125,7 @@ $(document).ready(function () {
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(po, s);
 
-    for (var i = 0; i < share_bar.length; i++) {
+    Array.prototype.forEach.call(shareBars, function (shareBar) {
         var html = '<iframe allowtransparency="true" frameborder="0" scrolling="no"' +
             'src="https://platform.twitter.com/widgets/tweet_button.html?url=' + encodeURIComponent(window.location) + '&amp;text=' + encodeURIComponent(document.title) + '&amp;via=ramswarooppatra&amp;hashtags=ramandantara&amp;count=horizontal"' +
             'style="width:105px; height:21px;">' +
@@ -157,23 +137,20 @@ $(document).ready(function () {
 
         // '<iframe src="https://plusone.google.com/_/+1/fastbutton?bsv&amp;size=medium&amp;url=' + encodeURIComponent(window.location) + '" allowtransparency="true" frameborder="0" scrolling="no" title="+1" style="width:105px; height:21px;"></iframe>';
 
-        share_bar[i].innerHTML = html;
-        share_bar[i].style.display = 'inline-block';
-    }
+        shareBar.innerHTML = html;
+        shareBar.style.display = 'inline-block';
+    });
 
     /********************** Embed youtube video *********************/
     $('.player').YTPlayer();
 
 
     /********************** Toggle Map Content **********************/
-    $('#btn-show-map').click(function () {
-        $('#map-content').toggleClass('toggle-map-content');
-        $('#btn-show-content').toggleClass('toggle-map-content');
-    });
-    $('#btn-show-content').click(function () {
-        $('#map-content').toggleClass('toggle-map-content');
-        $('#btn-show-content').toggleClass('toggle-map-content');
-    });
+    function toggleMapContent() {
+        $('#map-content, #btn-show-content').toggleClass('toggle-map-content');
+    }
+
+    $('#btn-show-map, #btn-show-content').on('click', toggleMapContent);
 
     /********************** Add to Calendar **********************/
     var myCalendar = createCalendar({
@@ -184,7 +161,7 @@ $(document).ready(function () {
         },
         data: {
             // Event title
-            title: "Ram and Antara's Wedding",
+            title: "Casamiento de Ram y Antara",
 
             // Event start date
             start: new Date('Nov 27, 2017 10:00'),
@@ -197,10 +174,10 @@ $(document).ready(function () {
             end: new Date('Nov 29, 2017 00:00'),
 
             // Event Address
-            address: 'ITC Fortune Park Hotel, Kolkata',
+            address: 'Hotel ITC Fortune Park, Kolkata',
 
             // Event Description
-            description: "We can't wait to see you on our big day. For any queries or issues, please contact Mr. Amit Roy at +91 9876543210."
+            description: "No vemos la hora de verte en nuestro gran día. Ante cualquier duda o problema, contactá al Sr. Amit Roy al +91 9876543210."
         }
     });
 
@@ -212,11 +189,11 @@ $(document).ready(function () {
         e.preventDefault();
         var data = $(this).serialize();
 
-        $('#alert-wrapper').html(alert_markup('info', '<strong>Just a sec!</strong> We are saving your details.'));
+        $('#alert-wrapper').html(alert_markup('info', '<strong>¡Aguantá un toque!</strong> Estamos guardando tus datos.'));
 
         if (MD5($('#invite_code').val()) !== 'b0e53b10c1f55ede516b240036b88f40'
             && MD5($('#invite_code').val()) !== '2ac7f43695eb0479d5846bb38eec59cc') {
-            $('#alert-wrapper').html(alert_markup('danger', '<strong>Sorry!</strong> Your invite code is incorrect.'));
+            $('#alert-wrapper').html(alert_markup('danger', '<strong>¡Perdón!</strong> Tu código de invitación es incorrecto.'));
         } else {
             $.post('https://script.google.com/macros/s/AKfycbyo0rEknln8LedEP3bkONsfOh776IR5lFidLhJFQ6jdvRiH4dKvHZmtoIybvnxpxYr2cA/exec', data)
                 .done(function (data) {
@@ -230,7 +207,7 @@ $(document).ready(function () {
                 })
                 .fail(function (data) {
                     console.log(data);
-                    $('#alert-wrapper').html(alert_markup('danger', '<strong>Sorry!</strong> There is some issue with the server. '));
+                    $('#alert-wrapper').html(alert_markup('danger', '<strong>¡Perdón!</strong> Tenemos un problema con el servidor. '));
                 });
         }
     });

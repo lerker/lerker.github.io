@@ -74,10 +74,11 @@
                     <nav>
                         <ul class="primary-nav">
                             <li><a href="#intro">Cómo nos conocimos</a></li>
-                            <li><a href="#events">Eventos</a></li>
+                            <li><a href="#events">Evento</a></li>
                             <li><a href="#instagram">Instagram</a></li>
                             <li><a href="#eng-pics">Compromiso</a></li>
-                            <li class="hidden-sm hidden-xs"><a href="#video-bg">Postales de la ciudad</a></li>
+                            <!--<li class="hidden-sm hidden-xs"><a href="#video-bg">Postales de la ciudad</a></li>-->
+                            <li><a href="#faq">Preguntas</a></li>
                         </ul>
                         <ul class="member-actions">
                             <li><a href="#map" class="login">Lugar</a></li>
@@ -124,6 +125,7 @@
     </div>
 </section>
 
+<!-- TEXTO -->
 <section id="intro">
     <div class="container">
         <div class="row">
@@ -147,6 +149,7 @@
     </div>
 </section>
 
+<!-- El EVENTO -->
 <section class="events section-padding" id="events">
     <div class="container">
         <div class="row">
@@ -154,11 +157,11 @@
                 <h3 class="header">El evento</h3>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-6 col-sm-12 col-xs-12 leftcol">
-                <div class="wp3">
-                    <p><strong>14 de febrero</strong></p>
 
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p><strong>14 de febrero</strong></p>
                     <h5>Ceremonia <span class="time">18 pm a 6 am</span></h5>
                     <p>La ceremonia se realizara en el salón de fiestas XXX. </p>
                 </div>
@@ -167,6 +170,23 @@
                     <p>...</p>
                 </div>
             </div>
+        </div>    
+        <div class="row">
+            <div class="col-md-6 col-sm-12 col-xs-12 leftcol">
+                <div class="wp3">
+                    <p><strong>14 de febrero</strong></p>
+
+                    <h5>Ceremonia <span class="time">18 pm a 6 am</span></h5>
+                    <p>La ceremonia se realizara en el salón de bodas Sueño'S. </p>
+
+                </div>
+                <div class="wp5">
+                    <h5>... <span class="time">19 a 0 h</span></h5>
+                    <p>...</p>
+                </div>
+            </div>
+
+            <!-- 
             <div class="col-md-6 col-sm-12 col-xs-12 rightcol">
                 <div class="wp4">
                     <p><strong>...</strong></p>
@@ -179,7 +199,10 @@
                     <p>...</p>
                 </div>
             </div>
+            -->
+        
         </div>
+        <!--
         <div class="row section-padding">
             <div class="col-md-4 col-md-offset-4 text-center">
                 <a class="btn btn-accent btn-small" data-toggle="modal" data-target="#dc-modal">
@@ -187,12 +210,13 @@
                 </a>
             </div>
         </div>
+        -->
         <!--<div class="row">
             <div class="col-xs-12 section-border section-padding">
             </div>
         </div>-->
     </div>
-
+    <!---->
     <div id="dc-modal" class="modal fade" tabindex="-1" role="dialog">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -452,16 +476,208 @@
     </div>
 </section>
 
+<!-- PREGUNTAS -->
+<section id="faq" class="section-padding">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h3 class="header"><span>Preguntas</span> Frecuentes</h3>
+            <p>Te dejamos una sección para despejar todas tus dudas.</p>
+            <div class="line"></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12" id="main">
+                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                    <!-- Estacionamiento -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingOne">
+                            <div class="accordio-panel-title" role="button" data-toggle="collapse"
+                                data-parent="#accordion" href="#collapseOne" aria-expanded="true"
+                                aria-controls="collapseOne">
+                                <h4 class="panel-title">Voy en auto, ¿Hay estacionamiento en el salón?</h4>
+                            </div>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel"
+                            aria-labelledby="headingOne">
+                            <div class="panel-body">
+                                <p>El Salón cuenta con estacionamiento privado y seguridad dentro del predio.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Pase sanitario-->
+                    <!--
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingTwo">
+                            <div class="accordio-panel-title collapsed" role="button" data-toggle="collapse"
+                                data-parent="#accordion" href="#collapseTwo" aria-expanded="false"
+                                aria-controls="collapseTwo">
+                                <h4 class="panel-title">¿Qué debo tener en cuenta para esa fecha? El protocolo...
+                                </h4>
+                            </div>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
+                            aria-labelledby="headingTwo">
+                            <div class="panel-body">
+                                <p>Debido a la situación epidemiológica que nos afecta a todos, debemos respetar
+                                    ciertos
+                                    protocolos de seguridad sanitaria.
+                                    En la provincia de Santa Fe, a la fecha, se exige a toda persona que asista a
+                                    eventos masivos el "pase sanitario".
+                                    Dicho pase, es la documentación que acredita el esquema de vacunación completo
+                                    contra el COVID-19 de la persona.
+                                </p>
+                                <p>Para más información, puedes dirigirte a los siguientes links:
+                                    <br> <a href="https://www.santafe.gob.ar/noticias/noticia/273429/"> Gobierno de
+                                        la
+                                        Ciudad de Santa Fe</a>
+                                    <br> <a
+                                        href="https://www.argentina.gob.ar/salud/coronavirus-COVID-19/pase-sanitario-nacional-2022/">
+                                        Gobierno Nacional</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    -->
+                    <!-- Lluvia -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingThree">
+                            <div class="accordio-panel-title collapsed" role="button" data-toggle="collapse"
+                                data-parent="#accordion" href="#collapseThree" aria-expanded="false"
+                                aria-controls="collapseThree">
+                                <h4 class="panel-title">Si llueve, ¿Se suspende?</h4>
+                            </div>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
+                            aria-labelledby="headingThree">
+                            <div class="panel-body">
+                                <p>Obvio que no! Venite preparado para la fiesta <i class="fa fa-smile-o"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Lugares donde ir-->
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingFour">
+                            <div class="accordio-panel-title collapsed" role="button" data-toggle="collapse"
+                                data-parent="#accordion" href="#collapseFour" aria-expanded="false"
+                                aria-controls="collapseFour">
+                                <h4 class="panel-title">No se donde hospedarme, ¿Donde puedo ir?</h4>
+                            </div>
+                        </div>
+                        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel"
+                            aria-labelledby="headingFour">
+                            <div class="panel-body">
+                                <p>Te recordamos que <b>el evento</b> es en la ciudad de Corrientes
+                                    (centro).</p>
+                                <p>La oferta de lugares para hospedarse en Corrientes suele ser muy variada (hoteles,
+                                    departamentos, cabañas, quintas, etc.).
+                                    Aún así, ten en cuenta que, para esa fecha la demanda suele incrementarse (carnavales).</p>
+                                <p>¡No te duermas! Para ayudarte más gráficamente, te mostramos un mapa con los
+                                    puntos de interés marcados</p>
+                                <iframe
+                                    src="https://www.google.com/maps/d/embed?mid=1-crQxJpQb5s7XpAK1BriY8YIqBPHKnA&ehbc=2E312F&noprof=1"
+                                    width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen=""
+                                    loading="lazy"></iframe>
+                                <p><span style="color: blue">Azul</span> - Ciudad de Corrientes: Donde podés encontrar
+                                    Hoteles, Airbnb, departamentos, etc.
+                                    <br> <span style="color: rgb(1, 1, 1)">Gris</span> - Ciudad de Resistencia: ciudad vecina.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- evento -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingFive">
+                            <div class="accordio-panel-title collapsed" role="button" data-toggle="collapse"
+                                data-parent="#accordion" href="#collapseFive" aria-expanded="false"
+                                aria-controls="collapseFive">
+                                <h4 class="panel-title">¿Cómo será ese día? ¿Adentro, afuera? ¿Calor, frio?</h4>
+                            </div>
+                        </div>
+                        <div id="collapseFive" class="panel-collapse collapse" role="tabpanel"
+                            aria-labelledby="headingFive">
+                            <div class="panel-body">
+                                <p>Nos gusta el aíre libre y la naturaleza. Elegimos ese lugar por ser muy amplio y
+                                    cómodo.
+                                </p>
+                                <p>Siempre que las condiciones lo permitan, la recepción lo haremos en el patio del
+                                    salón,
+                                    al aire libre.
+                                    <br> Luego la pista de baile y cena será en el salón principal. El cual está
+                                    equipado
+                                    con climatización.
+                                </p>
+                                <p>
+                                    Tené en cuenta que para los meses de febrero-marzo en la Ciudad de Santa Fe la
+                                    temperatura promedio ronda los 30°C.
+                                    <br> No te preocupes, tendremos bebidas refrescantes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- menu -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingSix">
+                            <div class="accordio-panel-title collapsed" role="button" data-toggle="collapse"
+                                data-parent="#accordion" href="#collapseSix" aria-expanded="false"
+                                aria-controls="collapseSix">
+                                <h4 class="panel-title">Menú o dieta especial</h4>
+                            </div>
+                        </div>
+                        <div id="collapseSix" class="panel-collapse collapse" role="tabpanel"
+                            aria-labelledby="headingSix">
+                            <div class="panel-body">
+                                <p>¿Eres celíaco, vegano, vegetariano? no te olvides de marcarlo en la respuesta a
+                                    la
+                                    invitación
+                                    <br>¿Debemos tener en cuenta algo más? <i>Envíanos un mensaje</i>.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- cancelar -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingSeven">
+                            <div class="accordio-panel-title collapsed" role="button" data-toggle="collapse"
+                                data-parent="#accordion" href="#collapseSeven" aria-expanded="false"
+                                aria-controls="collapseSeven">
+                                <h4 class="panel-title">Debo cancelar, ¿Qué hago?</h4>
+                            </div>
+                        </div>
+                        <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel"
+                            aria-labelledby="headingSeven">
+                            <div class="panel-body">
+                                <p>Si ya confirmaste tu asistencia y, por diversos motivos debes cancelar. Avísanos
+                                    cuanto
+                                    antes!
+                                    <br> Es una pena que no puedas asistir <i class="fa fa-frown-o"></i>. Te
+                                    extrañaremos
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- FINAL -->
 <footer>
     <div class="container">
         <div class="row">
             <div class="col-sm-12 text-center content">
                 <span class="to-top-wrapper"><a href="#top" class="to-top"><i class="fa fa-angle-up"></i></a></span>
-                <p>Creado por Ram con mucho <span class="fa fa-heart pulse2"></span> para Antara</p>
+                <p>Creado para este gran evento con  <span class="fa fa-heart pulse2"></span> </p>
             </div>
         </div>
     </div>
 </footer>
+<footer>
+
 <script src="js/vendor/jquery-1.11.2.min.js" onerror="loadJsFromCDN('jquery.js')"></script>
 <script src="node_modules/waypoints/lib/jquery.waypoints.min.js" onerror="loadJsFromCDN('waypoints.js')"></script>
 <script src="js/jquery.fancybox.pack.js"></script>
@@ -470,9 +686,12 @@
 <script src="js/jquery.mb.YTPlayer.min.js"></script>
 <script src="js/vendor/ouical.js"></script>
 <script src="js/scripts.min.js"></script>
+<!--
 <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlPw3GQYI3faa_9mRE6plWuM7xNEmrwH0&callback=initMap"></script>
+-->
 <!-- Google Analytics -->
+<!--
 <script>
     (function (i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;
@@ -488,5 +707,6 @@
     ga('create', 'UA-46465113-4', 'auto');
     ga('send', 'pageview');
 </script>
+-->
 </body>
 </html>

@@ -191,11 +191,11 @@ $(document).ready(function () {
 
         $('#alert-wrapper').html(alert_markup('info', '<strong>¡Aguantá un toque!</strong> Estamos guardando tus datos.'));
 
-        if (MD5($('#invite_code').val()) !== 'b0e53b10c1f55ede516b240036b88f40'
-            && MD5($('#invite_code').val()) !== '2ac7f43695eb0479d5846bb38eec59cc') {
+        if (MD5($('#invite_code').val()) !== '7482940dc9d6dc300b24c53e0cffffef'
+            && MD5($('#invite_code').val()) !== '7482940dc9d6dc300b24c53e0cffffef') {
             $('#alert-wrapper').html(alert_markup('danger', '<strong>¡Perdón!</strong> Tu código de invitación es incorrecto.'));
         } else {
-            $.post('https://script.google.com/macros/s/AKfycbyo0rEknln8LedEP3bkONsfOh776IR5lFidLhJFQ6jdvRiH4dKvHZmtoIybvnxpxYr2cA/exec', data)
+            $.post('https://script.google.com/macros/s/AKfycbzglqTVw9WEBCWOsTpSd_VmOyoWTaLrPBTILKq34Rmti92cvCn4fAVvUkllJH1D6-PQ1Q/exec', data)
                 .done(function (data) {
                     console.log(data);
                     if (data.result === "error") {
@@ -207,7 +207,7 @@ $(document).ready(function () {
                 })
                 .fail(function (data) {
                     console.log(data);
-                    $('#alert-wrapper').html(alert_markup('danger', '<strong>¡Perdón!</strong> Tenemos un problema con el servidor. '));
+                    $('#alert-wrapper').html(alert_markup('danger', '<strong>Lo siento!</strong> hubo un error en el servidor. Nuestros monos estan trabajando a todo trapo!'));
                 });
         }
     });

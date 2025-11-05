@@ -173,11 +173,16 @@ $(document).ready(function () {
 
         $('#alert-wrapper').html(alert_markup('info', '<strong>Un momento!</strong> Estamos guardando los datos.'));
 
-        if (MD5($('#invite_code').val()) !== '7482940dc9d6dc300b24c53e0cffffef'
-            && MD5($('#invite_code').val()) !== '7482940dc9d6dc300b24c53e0cffffef') {
+        var codeHash = MD5($('#invite_code').val());   // calcula una sola vez
+        var valid = new Set([
+        '9ec86d4c4a3d7d61426fca2e5c82f243', // 260214
+        '827ccb0eea8a706c4c34a16891f84e7b', // 12345
+        'c92a10324374fac681719d63979d00fe' // 2026
+        ]);
+        if (!valid.has(codeHash)) {
             $('#alert-wrapper').html(alert_markup('danger', '<strong>Ojo!</strong> Tu código es incorrecto. Esta bien?'));
         } else {
-            $.post('https://script.google.com/macros/s/AKfycbzXyE10LoAXsdelokSQMNVYNt4FinTezxhJHWEkLR7SXktseC7roysT4wJyCtMBKaDfRA/exec', data)
+            $.post('https://script.google.com/macros/s/AKfycbxtzWJwBx1AIEcaBI5CxeyQu53ZaukkZtUmyKP29PQhChWpgllHDJx9SUqQPjPwftn-Fw/exec', data)
                 .done(function (data) {
                     console.log(data);
                     if (data.result === "error") {

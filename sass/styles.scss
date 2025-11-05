@@ -2,6 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
 @import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,400italic,300italic,700,700italic);
 @import url(https://fonts.googleapis.com/css?family=Nunito:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Aclonica:400,300,700);
 // Imports
 //@import "compass";
 @import "partials/typography";
@@ -124,6 +125,23 @@ Animations
     transform: scale(1);
   }
 }
+.pulse3 {
+  animation-name: pulse3;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes pulse3 {
+  0% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
 .floating-arrow {
   animation-name: floating-arrow;
   animation-duration: 2s;
@@ -188,7 +206,7 @@ Navigation
   right: 15px;
   z-index: 999999;
   padding: 10px 35px 16px 0;
-  cursor: pointer
+  cursor: pointer;
 }
 .nav-toggle:focus {
   outline: none
@@ -251,14 +269,15 @@ Navigation
 Hero
 ========================================================================== */
 .hero {
-  min-height: 750px;
+  height: 750px;
   background: url('../img/hero-min.jpg') center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-repeat: no-repeat;
+  /*background-color: $color_fondo_hero;*/
   position: relative;
-
   /*.rsvp-btn {
     position: absolute;
     bottom: 100px;
@@ -821,7 +840,7 @@ RSVP form
         left: 30px;
         transform: translateY(-50%);
       }
-      i.fa-user, i.fa-users, i.fa-envelope, .fa-key {
+      i.fa-user, i.fa-users, i.fa-envelope, i.fa-whatsapp, i.fa-wechat, .fa-key {
         font-size: 14px;
         position: absolute;
         top: 50%;

@@ -116,31 +116,6 @@ $(document).ready(function () {
         }
     });
 
-    /********************** Social Share buttons ***********************/
-    var shareBars = document.getElementsByClassName('share-bar');
-    var po = document.createElement('script');
-    po.type = 'text/javascript';
-    po.async = true;
-    po.src = 'https://apis.google.com/js/platform.js';
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(po, s);
-
-    Array.prototype.forEach.call(shareBars, function (shareBar) {
-        var html = '<iframe allowtransparency="true" frameborder="0" scrolling="no"' +
-            'src="https://platform.twitter.com/widgets/tweet_button.html?url=' + encodeURIComponent(window.location) + '&amp;text=' + encodeURIComponent(document.title) + '&amp;via=ramswarooppatra&amp;hashtags=ramandantara&amp;count=horizontal"' +
-            'style="width:105px; height:21px;">' +
-            '</iframe>' +
-
-            '<iframe src="//www.facebook.com/plugins/like.php?href=' + encodeURIComponent(window.location) + '&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=true&amp;height=21&amp;appId=101094500229731&amp;width=150" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:150px; height:21px;" allowTransparency="true"></iframe>' +
-
-            '<div class="g-plusone" data-size="medium"></div>';
-
-        // '<iframe src="https://plusone.google.com/_/+1/fastbutton?bsv&amp;size=medium&amp;url=' + encodeURIComponent(window.location) + '" allowtransparency="true" frameborder="0" scrolling="no" title="+1" style="width:105px; height:21px;"></iframe>';
-
-        shareBar.innerHTML = html;
-        shareBar.style.display = 'inline-block';
-    });
-
     /********************** Embed youtube video *********************/
     $('.player').YTPlayer();
 
@@ -161,41 +136,48 @@ $(document).ready(function () {
         },
         data: {
             // Event title
-            title: "Casamiento de Ram y Antara",
+            title: "Boda Ale y Quique",
 
             // Event start date
-            start: new Date('Nov 27, 2017 10:00'),
+            start: new Date('Feb 14, 2026 18:00'),
 
             // Event duration (IN MINUTES)
             // duration: 120,
 
             // You can also choose to set an end time
             // If an end time is set, this will take precedence over duration
-            end: new Date('Nov 29, 2017 00:00'),
+            end: new Date('Feb 15, 2026 06:00'),
 
             // Event Address
-            address: 'Hotel ITC Fortune Park, Kolkata',
+            address: 'Salon SueñoS, Aconcagua 2768, Corrientes, Argenitina',
 
             // Event Description
-            description: "No vemos la hora de verte en nuestro gran día. Ante cualquier duda o problema, contactá al Sr. Amit Roy al +91 9876543210."
+            description: "Estas invitado al gran día. Te esperamos!"
         }
     });
 
+
     $('#add-to-cal').html(myCalendar);
 
-
     /********************** RSVP **********************/
+    /** Atención: si llegaste hasta aca es porque sos un conocedor del tema ;)
+     * Si tenes dudas, escribime. Besis Nelson!
+     * $.post('https://script.google.com/macros/s/AKfycbzglqTVw9WEBCWOsTpSd_VmOyoWTaLrPBTILKq34Rmti92cvCn4fAVvUkllJH1D6-PQ1Q/exec', data)
+     * 
+     * AKfycbzXyE10LoAXsdelokSQMNVYNt4FinTezxhJHWEkLR7SXktseC7roysT4wJyCtMBKaDfRA
+     * https://script.google.com/macros/s/AKfycbzXyE10LoAXsdelokSQMNVYNt4FinTezxhJHWEkLR7SXktseC7roysT4wJyCtMBKaDfRA/exec
+     */
     $('#rsvp-form').on('submit', function (e) {
         e.preventDefault();
         var data = $(this).serialize();
 
-        $('#alert-wrapper').html(alert_markup('info', '<strong>¡Aguantá un toque!</strong> Estamos guardando tus datos.'));
+        $('#alert-wrapper').html(alert_markup('info', '<strong>Un momento!</strong> Estamos guardando los datos.'));
 
         if (MD5($('#invite_code').val()) !== '7482940dc9d6dc300b24c53e0cffffef'
             && MD5($('#invite_code').val()) !== '7482940dc9d6dc300b24c53e0cffffef') {
-            $('#alert-wrapper').html(alert_markup('danger', '<strong>¡Perdón!</strong> Tu código de invitación es incorrecto.'));
+            $('#alert-wrapper').html(alert_markup('danger', '<strong>Ojo!</strong> Tu código es incorrecto. Esta bien?'));
         } else {
-            $.post('https://script.google.com/macros/s/AKfycbzglqTVw9WEBCWOsTpSd_VmOyoWTaLrPBTILKq34Rmti92cvCn4fAVvUkllJH1D6-PQ1Q/exec', data)
+            $.post('https://script.google.com/macros/s/AKfycbzXyE10LoAXsdelokSQMNVYNt4FinTezxhJHWEkLR7SXktseC7roysT4wJyCtMBKaDfRA/exec', data)
                 .done(function (data) {
                     console.log(data);
                     if (data.result === "error") {
@@ -211,7 +193,6 @@ $(document).ready(function () {
                 });
         }
     });
-
 });
 
 /********************** Extras **********************/
@@ -468,3 +449,50 @@ var MD5 = function (string) {
 
     return temp.toLowerCase();
 };
+
+// Counter
+// set the date we're counting down to
+var target_date = new Date('February, 27, 2022').getTime();
+ 
+// variables for time units
+var days, hours, minutes, seconds;
+ 
+// get tag element
+var countdown = document.getElementById('countdown');
+ 
+// update the tag with id "countdown" every 1 second
+setInterval(function () {
+ 
+    // find the amount of "seconds" between now and target
+    var current_date = new Date().getTime();
+    var seconds_left = (target_date - current_date) / 1000;
+ 
+    // do some time calculations
+    days = parseInt(seconds_left / 86400);
+    seconds_left = seconds_left % 86400;
+     
+    hours = parseInt(seconds_left / 3600);
+    seconds_left = seconds_left % 3600;
+     
+    minutes = parseInt(seconds_left / 60);
+    seconds = parseInt(seconds_left % 60);
+     
+    // format countdown string + set tag value
+    //countdown.innerHTML = '<span class="days">' + days +  ' <label>dias</label></span> <span class="hours">' + hours + ' <label>horas</label></span> <span class="minutes">'
+    //+ minutes + ' <label>minutos</label></span> <span class="seconds">' + seconds + ' <label>Seconds</label></span>';  
+    
+    
+    countdown.innerHTML = '<span class="days">' + days +  ' <label>dias</label></span> <span class="hours">' + hours + ' <label>horas</label></span> <span class="minutes">' + minutes + ' <label>minutos</label></span>';
+
+    //
+ 
+}, 1000);
+
+function funcionOcultar() {
+    var x = document.getElementById("misDatos");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  };

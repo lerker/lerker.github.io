@@ -177,7 +177,8 @@ $(document).ready(function () {
         var valid = new Set([
         '9ec86d4c4a3d7d61426fca2e5c82f243', // 260214
         '827ccb0eea8a706c4c34a16891f84e7b', // 12345
-        'c92a10324374fac681719d63979d00fe' // 2026
+        'c92a10324374fac681719d63979d00fe', // 2026
+        'e9d79d0f065f5024633536f633478615'  // 140226
         ]);
         if (!valid.has(codeHash)) {
             $('#alert-wrapper').html(alert_markup('danger', '<strong>Ojo!</strong> Tu código es incorrecto. Esta bien?'));

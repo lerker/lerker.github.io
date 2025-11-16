@@ -376,13 +376,30 @@
                                 <option value="Vegetariano">Vegetariano</option>
                             </select>
                         </div>
-
+                        <!--
                         <div class="col-sm-6 col-sm-6">
                             <div class="form-input-group">
                                 <i class="fa fa-music"></i><input name="musica" class=""
                                     placeholder="musica">
                             </div>
                         </div>
+                        
+                        <div class="form-input-group">
+                            <i class="fa fa-music"></i>
+                            <textarea name="musica" rows="2"
+                                    placeholder="Tema, artista o estilo que te gustaría escuchar 🎶"></textarea>
+                        </div>
+                    -->
+
+                        <!-- Música -->
+    <div class="col-md-6 col-sm-6">
+        <div class="form-input-group">
+            <i class="fa fa-music"></i>
+            <input name="musica"
+                   placeholder="tema o artista que te gustaría escuchar 🎵">
+        </div>
+    </div>
+
                         
                     </div> 
                     <div class="row">
@@ -420,10 +437,19 @@
     </div>
 </section>
 
+<!-- data-property="{videoURL:'https://youtu.be/YLs_MJRx0eE',containment:'#video-bg',autoPlay:true, mute:false, showControls:false, opacity:1}"> 
+ -->
 <section id="video-bg" class="hidden-sm hidden-xs">
     <div id="bgndVideo" class="player"
-         data-property="{videoURL:'https://youtu.be/YLs_MJRx0eE',containment:'#video-bg',autoPlay:true, mute:false, showControls:false, opacity:1}">
-    </div>
+         data-property="{videoURL:'https://youtu.be/YLs_MJRx0eE',
+                containment:'#video-bg',
+                autoPlay:true,
+                mute:true,
+                showControls:false,
+                startAt:0,
+                opacity:0}"
+
+        </div>
     <div id="video-content">
     </div>
 </section>
@@ -701,5 +727,11 @@
     ga('send', 'pageview');
 </script>
 -->
+
+<script>
+$(document).on('click scroll', function () {
+    $("#bgndVideo").YTPUnmute();
+});
+</script>
 </body>
 </html>

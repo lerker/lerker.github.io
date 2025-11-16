@@ -178,12 +178,13 @@ $(document).ready(function () {
         '9ec86d4c4a3d7d61426fca2e5c82f243', // 260214
         '827ccb0eea8a706c4c34a16891f84e7b', // 12345
         'c92a10324374fac681719d63979d00fe', // 2026
-        'e9d79d0f065f5024633536f633478615'  // 140226
+        'e9d79d0f065f5024633536f633478615', // 140226
+        '03c7c0ace395d80182db07ae2c30f034'  // 00000
         ]);
         if (!valid.has(codeHash)) {
             $('#alert-wrapper').html(alert_markup('danger', '<strong>Ojo!</strong> Tu código es incorrecto. Esta bien?'));
         } else {
-            $.post('https://script.google.com/macros/s/AKfycbxtzWJwBx1AIEcaBI5CxeyQu53ZaukkZtUmyKP29PQhChWpgllHDJx9SUqQPjPwftn-Fw/exec', data)
+            $.post('https://script.google.com/macros/s/AKfycbwx9oWDM7T-_2ZGqZIjwPmdoe1tbuhsPuO4KyEw39T6hpulytTJ_NKn__YZrnkDcqJh/exec', data)
                 .done(function (data) {
                     console.log(data);
                     if (data.result === "error") {

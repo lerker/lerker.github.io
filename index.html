@@ -452,6 +452,18 @@
                     </div>
                 </a>
             </div>
+
+            <div class="col-md-2">
+                <a class="fancybox" rel="group" href="img/eng_pics/ale_quique_9.jpg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <img src="img/eng_pics/ale_quique_9.jpg" alt=""/>
+                    </div>
+                </a>
+            </div>
+            
             <div class="col-md-2">
                 <a class="fancybox" rel="group" href="img/eng_pics/ale_quique_4_v2.png">
                     <div class="img-wrap">
@@ -482,6 +494,30 @@
                     </div>
                 </a>
             </div>
+
+            <div class="col-md-2">
+                <a class="fancybox" rel="group" href="img/eng_pics/ale_quique_7.jpg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <img src="img/eng_pics/ale_quique_7.jpg" alt=""/>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-2">
+                <a class="fancybox" rel="group" href="img/eng_pics/ale_quique_8.jpg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <img src="img/eng_pics/ale_quique_8.jpg" alt=""/>
+                    </div>
+                </a>
+            </div>
+
+            
         </div>
     </div>
     <div class="container">
@@ -666,7 +702,9 @@ $(document).on('click scroll', function () {
 <script>
 document.addEventListener('click', () => {
     const audio = document.getElementById('bg-audio');
-    if (audio) audio.play();
+    if (audio) 
+    audio.volume = 0.35;
+    audio.play();
 }, { once: true });
 </script>
 

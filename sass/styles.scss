@@ -818,6 +818,7 @@ RSVP form
     .form-input-group {
       width: 100%;
       height: 55px;
+      display: flex;
       margin: 0 auto 10px;
       -moz-border-radius: 5px;
       -webkit-border-radius: 5px;
@@ -840,14 +841,14 @@ RSVP form
         left: 30px;
         transform: translateY(-50%);
       }
-      i.fa-user, i.fa-users, i.fa-envelope, i.fa-whatsapp, i.fa-wechat, .fa-key {
+      i.fa-user, i.fa-users, i.fa-envelope, i.fa-whatsapp, i.fa-wechat, i.fa-key, i.fa-music, i.fa-cutlery {
         font-size: 14px;
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
         margin-left: 20px;
       }
-      input {
+      input, select {
         padding-left: 68px;
         width: 100%;
         height: 100%;
@@ -855,6 +856,12 @@ RSVP form
         -webkit-border-radius: 6px;
         border-radius: 6px;
         border: none;
+        flex: 1;
+      }
+      select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
       }
       input::-webkit-input-placeholder {
         color: $form-placeholder;
@@ -909,6 +916,48 @@ footer {
   }
 }
 
+.obsequio {
+  text-align: center;
+
+  .regalos-cuentas {
+    margin-top: 30px;
+  }
+
+  .gift-card {
+    display: inline-block;
+    max-width: 340px;
+    margin: 0 auto 20px;
+    padding: 20px 24px;
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+    text-align: left;
+  }
+
+  .gift-card h5 {
+    text-transform: uppercase;
+    letter-spacing: .12em;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: $accent-color; // o el color dorado que uses
+  }
+
+  .gift-data {
+    margin: 0;
+
+    dt {
+      font-weight: 600;
+      margin-top: 8px;
+    }
+
+    dd {
+      margin: 0 0 4px 0;
+    }
+  }
+}
+
+
 /* ==========================================================================
 Bootstrap override
 ========================================================================== */
@@ -918,3 +967,4 @@ body.modal-open {
 .modal-body {
   padding:25px;
 }
+
